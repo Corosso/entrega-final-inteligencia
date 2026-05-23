@@ -101,17 +101,8 @@ python dashboard/exportar_powerbi.py
 python dashboard/consolidar_excel.py
 ```
 
-Las figuras se guardan en `analisis/graficos/` y son las que aparecen en el informe.
 
----
-
-## 6. Resultados
-
-- **Informe final:** [`docs/Informe_Final_BI.md`](docs/Informe_Final_BI.md) — documento
-  completo con todas las figuras incrustadas.
-- **Dashboard:** abre `Entregable.pbix` en **Power BI Desktop**. Para reconstruirlo desde
-  cero sigue [`docs/Guia_PowerBI.md`](docs/Guia_PowerBI.md) usando los CSV de `dashboard/`.
-- **Sustentación:** [`docs/Guion_Sustentacion.md`](docs/Guion_Sustentacion.md).
+-
 
 ---
 
