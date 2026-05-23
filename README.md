@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Levantar SQL Server
+## 3. Levantar SQL Server
 
 Todos los scripts se conectan a SQL Server (configuración en `etl/db.py`). Levanta una
 instancia con Docker:
@@ -78,7 +78,7 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=TuPassword123!" \
 
 ---
 
-## 5. Ejecución paso a paso
+## 4. Ejecución paso a paso
 
 Ejecuta los scripts **en este orden** (con el entorno virtual activo):
 
