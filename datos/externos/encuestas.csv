@@ -1,0 +1,151 @@
+id_encuesta,id_cliente,fecha_encuesta,satisfaccion,recomendaria,comentarios
+1,423,2025-06-27,4,Sí,El producto no funcionó
+2,393,2025-12-17,5,Sí,Regular
+3,428,2025-11-29,3,Sí,Podría mejorar
+4,53,2025-10-03,4,No,No me gustó el empaque
+5,49,2025-10-22,2,Sí,Buen producto
+6,202,2025-11-03,4,Tal vez,No me gustó el empaque
+7,132,2025-10-23,4,Sí,No me gustó el empaque
+8,82,2025-09-05,1,Tal vez,Muy satisfecho
+9,52,2025-11-03,5,Tal vez,Buena relación calidad-precio
+10,391,2025-10-11,3,No,Buen producto
+11,275,2025-11-18,5,Sí,El producto no funcionó
+12,157,2025-09-06,4,Sí,No me gustó el empaque
+13,56,2025-06-11,5,Sí,Buen producto
+14,297,2025-11-02,5,Sí,Entrega rápida
+15,356,2025-06-28,4,Tal vez,Buen producto
+16,125,2025-10-30,5,No,Entrega rápida
+17,183,2025-11-12,5,Sí,Muy satisfecho
+18,316,2025-06-26,3,Sí,Podría mejorar
+19,222,2025-10-26,5,Sí,El producto no funcionó
+20,496,2025-06-25,3,Sí,Regular
+21,459,2025-07-01,4,Sí,No me gustó el empaque
+22,455,2025-12-13,4,Sí,El producto no funcionó
+23,143,2025-08-01,2,Sí,Regular
+24,286,2025-09-01,4,Sí,El producto no funcionó
+25,352,2025-10-27,4,Sí,Entrega rápida
+26,279,2025-11-20,4,Sí,No me gustó el empaque
+27,270,2025-11-29,5,Tal vez,No me gustó el empaque
+28,88,2025-11-02,5,Sí,Podría mejorar
+29,130,2025-09-16,2,Tal vez,Regular
+30,133,2025-09-09,2,No,Regular
+31,117,2025-12-01,5,Tal vez,El producto no funcionó
+32,395,2025-12-08,3,Sí,Entrega rápida
+33,22,2025-06-11,3,Sí,No me gustó el empaque
+34,364,2025-08-28,4,No,Entrega rápida
+35,69,2025-11-13,5,Sí,Muy satisfecho
+36,499,2025-09-21,5,Sí,El producto no funcionó
+37,376,2025-09-26,4,No,El producto no funcionó
+38,137,2025-10-25,2,Tal vez,Entrega rápida
+39,178,2025-10-12,5,Tal vez,El producto no funcionó
+40,255,2025-06-10,5,No,Buen producto
+41,388,2025-09-11,5,Sí,El producto no funcionó
+42,61,2025-11-08,2,Sí,Excelente servicio
+43,484,2025-12-08,5,Sí,No me gustó el empaque
+44,230,2025-12-17,3,Sí,Buen producto
+45,179,2025-09-19,5,Sí,Excelente servicio
+46,98,2025-11-19,1,Sí,No me gustó el empaque
+47,201,2025-06-07,2,Sí,El producto no funcionó
+48,305,2025-07-26,4,Sí,Buena relación calidad-precio
+49,41,2025-10-24,3,Sí,Podría mejorar
+50,339,2025-07-17,3,Sí,Excelente servicio
+51,407,2025-06-07,5,Sí,Buena relación calidad-precio
+52,116,2025-11-09,5,Sí,Muy satisfecho
+53,477,2025-08-24,5,Sí,Podría mejorar
+54,29,2025-06-26,5,Sí,No me gustó el empaque
+55,273,2025-08-14,4,No,Podría mejorar
+56,481,2025-09-14,3,No,Muy satisfecho
+57,145,2025-06-08,4,Sí,Excelente servicio
+58,315,2025-12-04,3,Sí,No me gustó el empaque
+59,298,2025-09-25,3,Sí,Entrega rápida
+60,337,2025-08-04,5,No,Entrega rápida
+61,154,2025-08-31,4,Tal vez,Buen producto
+62,490,2025-11-22,4,Sí,Buen producto
+63,216,2025-08-28,4,Sí,Regular
+64,300,2025-08-30,4,Sí,Excelente servicio
+65,237,2025-08-03,5,No,Excelente servicio
+66,31,2025-08-10,5,Sí,Regular
+67,458,2025-09-23,4,Sí,Podría mejorar
+68,433,2025-12-18,2,Sí,Regular
+69,366,2025-06-13,2,Sí,Entrega rápida
+70,106,2025-08-23,5,Tal vez,Podría mejorar
+71,249,2025-09-26,3,Sí,El producto no funcionó
+72,164,2025-11-26,3,No,Podría mejorar
+73,59,2025-11-10,5,Tal vez,Buena relación calidad-precio
+74,320,2025-08-07,5,Tal vez,Regular
+75,272,2025-12-14,4,Sí,El producto no funcionó
+76,171,2025-07-12,3,Sí,Regular
+77,200,2025-07-24,4,Sí,El producto no funcionó
+78,7,2025-10-21,5,Sí,Entrega rápida
+79,408,2025-12-15,4,Sí,No me gustó el empaque
+80,27,2025-10-19,5,Sí,Entrega rápida
+81,331,2025-11-13,4,Sí,Entrega rápida
+82,360,2025-08-22,5,Sí,Podría mejorar
+83,321,2025-12-07,3,Sí,Regular
+84,319,2025-09-11,5,Sí,Buena relación calidad-precio
+85,108,2025-12-10,3,Sí,Excelente servicio
+86,340,2025-08-29,2,Sí,No me gustó el empaque
+87,397,2025-12-17,5,No,Entrega rápida
+88,487,2025-07-15,5,Sí,Buena relación calidad-precio
+89,289,2025-10-06,4,Tal vez,Buena relación calidad-precio
+90,112,2025-06-23,4,Sí,El producto no funcionó
+91,480,2025-08-25,4,Sí,No me gustó el empaque
+92,430,2025-08-30,4,Sí,Buen producto
+93,189,2025-11-05,5,Tal vez,El producto no funcionó
+94,426,2025-10-16,5,No,Entrega rápida
+95,359,2025-12-07,4,Sí,Podría mejorar
+96,464,2025-07-29,2,Tal vez,Buen producto
+97,485,2025-08-21,4,Sí,Regular
+98,252,2025-08-18,5,No,El producto no funcionó
+99,85,2025-06-26,5,Tal vez,Entrega rápida
+100,406,2025-12-02,4,Tal vez,Podría mejorar
+101,452,2025-06-24,5,Tal vez,El producto no funcionó
+102,152,2025-11-11,5,Sí,Podría mejorar
+103,372,2025-09-12,5,Sí,Buen producto
+104,217,2025-08-20,5,Sí,Buen producto
+105,33,2025-11-07,3,Sí,Entrega rápida
+106,55,2025-10-06,4,Sí,Entrega rápida
+107,174,2025-11-11,5,Tal vez,Buena relación calidad-precio
+108,102,2025-07-18,5,Sí,Regular
+109,20,2025-12-11,4,Tal vez,No me gustó el empaque
+110,329,2025-09-06,1,Sí,Buen producto
+111,301,2025-07-22,5,Sí,Excelente servicio
+112,471,2025-08-07,3,Sí,Podría mejorar
+113,153,2025-11-29,4,Sí,No me gustó el empaque
+114,318,2025-10-03,5,Sí,No me gustó el empaque
+115,429,2025-08-29,2,No,Buen producto
+116,37,2025-08-26,4,Tal vez,Buen producto
+117,454,2025-09-21,5,Tal vez,Podría mejorar
+118,259,2025-09-01,5,No,El producto no funcionó
+119,66,2025-12-11,4,Sí,Excelente servicio
+120,195,2025-07-11,3,Sí,El producto no funcionó
+121,54,2025-07-14,2,Sí,Buen producto
+122,343,2025-08-22,5,Tal vez,El producto no funcionó
+123,368,2025-06-05,5,No,Podría mejorar
+124,208,2025-06-29,3,Tal vez,Excelente servicio
+125,417,2025-07-19,5,Sí,Excelente servicio
+126,334,2025-10-27,4,Tal vez,Regular
+127,211,2025-08-19,5,No,Buena relación calidad-precio
+128,38,2025-10-08,4,Sí,Podría mejorar
+129,181,2025-11-27,5,Sí,El producto no funcionó
+130,324,2025-11-12,3,Sí,Muy satisfecho
+131,119,2025-10-22,5,No,Regular
+132,441,2025-08-15,3,Sí,Excelente servicio
+133,370,2025-12-11,5,Sí,Entrega rápida
+134,146,2025-10-22,4,Sí,Buen producto
+135,107,2025-10-16,4,Tal vez,Muy satisfecho
+136,383,2025-07-16,4,Sí,Buen producto
+137,36,2025-09-10,3,Sí,El producto no funcionó
+138,170,2025-11-06,3,Sí,Podría mejorar
+139,253,2025-11-26,2,Sí,No me gustó el empaque
+140,377,2025-06-20,5,No,El producto no funcionó
+141,74,2025-07-21,5,Tal vez,El producto no funcionó
+142,419,2025-06-24,5,No,Podría mejorar
+143,10,2025-06-24,4,No,El producto no funcionó
+144,263,2025-11-30,4,Sí,No me gustó el empaque
+145,147,2025-11-01,4,Sí,Regular
+146,494,2025-11-17,3,No,Muy satisfecho
+147,277,2025-09-12,4,No,Regular
+148,28,2025-08-07,3,Tal vez,Buena relación calidad-precio
+149,144,2025-07-08,5,Sí,Podría mejorar
+150,445,2025-12-01,4,No,Entrega rápida

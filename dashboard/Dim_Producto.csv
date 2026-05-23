@@ -1,0 +1,81 @@
+id_producto,nombre_producto,id_categoria,nombre_categoria,id_proveedor,nombre_proveedor,precio_unitario,costo_unitario,activo,margen_pct
+1,Corsair Lite-001,3,Accesorios,12,ChipMex,831633.0,458441.0,True,45
+2,Logitech Air-002,7,Impresoras,8,MegaTech,2675106.0,1852768.0,True,31
+3,Apple Plus-003,4,Audio,6,DataStore Ltd,2429302.0,1490322.0,True,39
+4,Xiaomi Ultra-004,9,Software,11,LogicPC SA,3465256.0,1438683.0,True,58
+5,Lenovo S-005,3,Accesorios,3,GlobalParts SA,1354368.0,512259.0,True,62
+6,LG Lite-006,5,Almacenamiento,1,TechSupply Corp,1228186.0,745469.0,True,39
+7,TP-Link Z-007,3,Accesorios,3,GlobalParts SA,849772.0,306432.0,True,64
+8,Asus Max-008,7,Impresoras,5,NetProveedores,1101633.0,643695.0,True,42
+9,WD Pro-009,5,Almacenamiento,15,TecnoParts,2794929.0,2029376.0,True,27
+10,Asus Pro-010,9,Software,14,EuroComponents,2025142.0,1174966.0,True,42
+11,Kingston Max-011,7,Impresoras,3,GlobalParts SA,333812.0,168665.0,True,49
+12,LG Lite-012,2,Smartphones,1,TechSupply Corp,1277038.0,775565.0,True,39
+13,HP Ultra-013,4,Audio,5,NetProveedores,1241912.0,662313.0,True,47
+14,TP-Link E-014,9,Software,10,SuperDigital,3484558.0,1980089.0,True,43
+15,TP-Link Max-015,2,Smartphones,7,CompuParts,3564230.0,2589719.0,True,27
+16,Asus S-016,10,Gaming,15,TecnoParts,748954.0,377803.0,True,50
+17,LG S-017,9,Software,14,EuroComponents,4988725.0,3664100.0,True,27
+18,Lenovo Lite-018,10,Gaming,7,CompuParts,1341237.0,955149.0,True,29
+19,Lenovo Ultra-019,5,Almacenamiento,11,LogicPC SA,4883309.0,2091602.0,True,57
+20,Logitech Z-020,2,Smartphones,9,MicroDistribuidores,2061075.0,778560.0,True,62
+21,Xiaomi Lite-021,4,Audio,15,TecnoParts,174923.0,68274.0,True,61
+22,Logitech E-022,7,Impresoras,15,TecnoParts,1731906.0,618790.0,True,64
+23,LG E-023,8,Redes,10,SuperDigital,3175413.0,1231353.0,True,61
+24,LG Max-024,3,Accesorios,10,SuperDigital,3406720.0,2123077.0,True,38
+25,Asus Plus-025,1,Laptops,12,ChipMex,2659364.0,1006504.0,True,62
+26,Xiaomi S-026,4,Audio,13,AsiaElectronics,2244438.0,1071922.0,True,52
+27,HP Pro-027,2,Smartphones,3,GlobalParts SA,2768937.0,1904891.0,True,31
+28,WD Air-028,8,Redes,15,TecnoParts,2967557.0,1066269.0,True,64
+29,Lenovo Plus-029,4,Audio,7,CompuParts,413458.0,279410.0,True,32
+30,Kingston X-030,2,Smartphones,1,TechSupply Corp,1854576.0,858190.0,True,54
+31,Apple Air-031,6,Monitores,4,ElectroMax,1218378.0,484020.0,True,60
+32,LG X-032,6,Monitores,13,AsiaElectronics,4017667.0,2525887.0,True,37
+33,Apple S-033,10,Gaming,4,ElectroMax,2356800.0,1417797.0,True,40
+34,Xiaomi Lite-034,4,Audio,14,EuroComponents,4917281.0,3446959.0,True,30
+35,Xiaomi Pro-035,6,Monitores,5,NetProveedores,2000134.0,1288143.0,True,36
+36,Corsair Air-036,2,Smartphones,7,CompuParts,4083995.0,2741963.0,False,33
+37,Corsair Z-037,10,Gaming,7,CompuParts,3993742.0,1848359.0,True,54
+38,Kingston Lite-038,2,Smartphones,13,AsiaElectronics,762081.0,320818.0,True,58
+39,Kingston Max-039,10,Gaming,15,TecnoParts,2545912.0,1655469.0,True,35
+40,HP Lite-040,4,Audio,11,LogicPC SA,3482106.0,2342531.0,True,33
+41,LG Plus-041,8,Redes,13,AsiaElectronics,4293210.0,3203602.0,True,25
+42,Sony Pro-042,7,Impresoras,4,ElectroMax,1636535.0,842893.0,True,48
+43,Logitech Lite-043,9,Software,13,AsiaElectronics,1109003.0,553179.0,True,50
+44,Xiaomi Plus-044,8,Redes,7,CompuParts,3558636.0,2350711.0,False,34
+45,Xiaomi Air-045,5,Almacenamiento,11,LogicPC SA,4049410.0,1969315.0,True,51
+46,WD Lite-046,2,Smartphones,3,GlobalParts SA,1749843.0,1263917.0,True,28
+47,WD Z-047,5,Almacenamiento,6,DataStore Ltd,489921.0,339694.0,True,31
+48,Apple Ultra-048,8,Redes,12,ChipMex,4703211.0,2453184.0,True,48
+49,Lenovo Max-049,10,Gaming,2,DigitalWorld Inc,1993884.0,1296719.0,True,35
+50,Kingston Plus-050,9,Software,10,SuperDigital,2593579.0,1690539.0,True,35
+51,Xiaomi Z-051,9,Software,13,AsiaElectronics,4190173.0,1639403.0,True,61
+52,TP-Link Pro-052,1,Laptops,14,EuroComponents,3381694.0,2404456.0,True,29
+53,Apple Max-053,9,Software,9,MicroDistribuidores,3678728.0,2031029.0,True,45
+54,Sony Pro-054,7,Impresoras,5,NetProveedores,1053267.0,716836.0,True,32
+55,HP Max-055,9,Software,6,DataStore Ltd,2711825.0,1296306.0,False,52
+56,TP-Link Lite-056,8,Redes,12,ChipMex,3481964.0,2465959.0,True,29
+57,Asus Pro-057,1,Laptops,12,ChipMex,1150465.0,581768.0,True,49
+58,Asus E-058,8,Redes,12,ChipMex,883025.0,312887.0,True,65
+59,HP Air-059,8,Redes,12,ChipMex,4911020.0,3497397.0,True,29
+60,Logitech S-060,3,Accesorios,4,ElectroMax,2588013.0,1000305.0,True,61
+61,WD Air-061,1,Laptops,14,EuroComponents,1311538.0,626555.0,True,52
+62,Kingston Z-062,8,Redes,14,EuroComponents,4981306.0,3636477.0,True,27
+63,Kingston Plus-063,3,Accesorios,11,LogicPC SA,4827443.0,3525206.0,True,27
+64,Lenovo S-064,3,Accesorios,10,SuperDigital,2795884.0,1619866.0,True,42
+65,Xiaomi Plus-065,1,Laptops,7,CompuParts,4414355.0,2660686.0,True,40
+66,Acer Z-066,5,Almacenamiento,12,ChipMex,951648.0,503782.0,True,47
+67,WD E-067,10,Gaming,9,MicroDistribuidores,1401568.0,654931.0,True,53
+68,LG Ultra-068,7,Impresoras,7,CompuParts,3504786.0,1687435.0,True,52
+69,TP-Link Z-069,10,Gaming,14,EuroComponents,4234839.0,2621397.0,True,38
+70,Kingston Ultra-070,9,Software,1,TechSupply Corp,4283058.0,2788056.0,True,35
+71,Logitech Lite-071,7,Impresoras,1,TechSupply Corp,2028496.0,1352260.0,True,33
+72,LG Max-072,9,Software,9,MicroDistribuidores,4439973.0,2956344.0,True,33
+73,Sony Z-073,8,Redes,11,LogicPC SA,4256133.0,1644921.0,True,61
+74,Sony Air-074,2,Smartphones,14,EuroComponents,4678819.0,2562908.0,True,45
+75,Asus Ultra-075,1,Laptops,9,MicroDistribuidores,3928850.0,1465553.0,True,63
+76,HP Max-076,7,Impresoras,4,ElectroMax,3348251.0,1907872.0,True,43
+77,Dell E-077,7,Impresoras,13,AsiaElectronics,2907626.0,1531191.0,True,47
+78,Xiaomi Ultra-078,8,Redes,9,MicroDistribuidores,1867691.0,1316875.0,True,29
+79,Apple Ultra-079,5,Almacenamiento,3,GlobalParts SA,4701266.0,2305341.0,True,51
+80,Dell Air-080,3,Accesorios,7,CompuParts,4868583.0,1931984.0,True,60

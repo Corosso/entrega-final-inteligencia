@@ -1,0 +1,16 @@
+id_proveedor,nombre,pais,tiempo_entrega_dias,calificacion
+1,TechSupply Corp,USA,5,4.5
+2,DigitalWorld Inc,China,15,3.8
+3,GlobalParts SA,Argentina,7,4.2
+4,ElectroMax,México,4,4.0
+5,NetProveedores,Colombia,2,4.7
+6,DataStore Ltd,Alemania,10,3.9
+7,CompuParts,Brasil,6,4.1
+8,MegaTech,Japón,14,4.3
+9,MicroDistribuidores,Corea del Sur,9,3.7
+10,SuperDigital,India,12,4.0
+11,LogicPC SA,Taiwán,8,4.4
+12,ChipMex,Vietnam,16,3.6
+13,AsiaElectronics,Malasia,13,3.9
+14,EuroComponents,España,7,4.2
+15,TecnoParts,Tailandia,11,3.8

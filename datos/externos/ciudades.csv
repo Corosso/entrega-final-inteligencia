@@ -1,0 +1,16 @@
+id_ciudad,nombre,region,zona
+1,Medellín,Antioquia,Centro
+2,Bogotá,Cundinamarca,Centro
+3,Cali,Valle,Centro
+4,Barranquilla,Atlántico,Centro
+5,Cartagena,Bolívar,Norte
+6,Bucaramanga,Santander,Norte
+7,Pereira,Risaralda,Norte
+8,Manizales,Caldas,Norte
+9,Santa Marta,Magdalena,Occidente
+10,Cúcuta,Norte de Santander,Occidente
+11,Ibagué,Tolima,Occidente
+12,Montería,Córdoba,Oriente
+13,Villavicencio,Meta,Oriente
+14,Pasto,Nariño,Oriente
+15,Neiva,Huila,Oriente

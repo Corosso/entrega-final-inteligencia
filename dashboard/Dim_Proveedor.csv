@@ -1,0 +1,26 @@
+id_proveedor_origen,nombre,pais,tipo,id_proveedor_dw
+1,TechSupply Corp,USA,Interno,1
+2,DigitalWorld Inc,China,Interno,2
+3,GlobalParts SA,Argentina,Interno,3
+4,ElectroMax,México,Interno,4
+5,NetProveedores,Colombia,Interno,5
+6,DataStore Ltd,Alemania,Interno,6
+7,CompuParts,Brasil,Interno,7
+8,MegaTech,Japón,Interno,8
+9,MicroDistribuidores,Corea del Sur,Interno,9
+10,SuperDigital,India,Interno,10
+11,LogicPC SA,Taiwán,Interno,11
+12,ChipMex,Vietnam,Interno,12
+13,AsiaElectronics,Malasia,Interno,13
+14,EuroComponents,España,Interno,14
+15,TecnoParts,Tailandia,Interno,15
+1,ProveedorExt_1,Perú,Externo,16
+2,ProveedorExt_2,Chile,Externo,17
+3,ProveedorExt_3,México,Externo,18
+4,ProveedorExt_4,Brasil,Externo,19
+5,ProveedorExt_5,Chile,Externo,20
+6,ProveedorExt_6,Chile,Externo,21
+7,ProveedorExt_7,México,Externo,22
+8,ProveedorExt_8,México,Externo,23
+9,ProveedorExt_9,Chile,Externo,24
+10,ProveedorExt_10,Colombia,Externo,25

@@ -1,0 +1,501 @@
+id_cliente,nombre_cliente,email,id_ciudad,fecha_registro,segmento,edad,genero,nombre_ciudad,region,zona,ultima_compra,frecuencia,monetario,recency,monto_total,segmento_rfm
+1,Cliente_0001,cliente0001@email.com,12,2023-12-20,Residencial,18,F,Montería,Córdoba,Oriente,2025-11-05 20:32:00,9,9,56,193558649,VIP
+2,Cliente_0002,cliente0002@email.com,9,2023-07-16,PYME,39,F,Santa Marta,Magdalena,Occidente,2025-11-25 13:08:00,7,7,36,218742408,VIP
+3,Cliente_0003,cliente0003@email.com,10,2020-04-30,Residencial,43,F,Cúcuta,Norte de Santander,Occidente,2025-12-28 11:08:00,8,8,3,295545925,VIP
+4,Cliente_0004,cliente0004@email.com,10,2021-04-13,PYME,35,F,Cúcuta,Norte de Santander,Occidente,2025-09-27 12:44:00,8,8,95,149308387,Regular
+5,Cliente_0005,cliente0005@email.com,12,2020-05-18,PYME,67,F,Montería,Córdoba,Oriente,2025-11-16 22:31:00,9,9,45,335171168,VIP
+6,Cliente_0006,cliente0006@email.com,1,2020-03-05,Residencial,31,M,Medellín,Antioquia,Centro,2025-12-02 15:26:00,12,12,29,365898705,VIP
+7,Cliente_0007,cliente0007@email.com,13,2024-10-26,Residencial,64,M,Villavicencio,Meta,Oriente,2025-12-26 15:45:00,10,10,5,294345419,VIP
+8,Cliente_0008,cliente0008@email.com,6,2021-11-07,Educativo,46,F,Bucaramanga,Santander,Norte,2025-11-12 19:49:00,16,16,49,469485088,VIP
+9,Cliente_0009,cliente0009@email.com,7,2020-05-25,Residencial,29,M,Pereira,Risaralda,Norte,2025-03-30 11:04:00,5,5,276,149741987,En riesgo
+10,Cliente_0010,cliente0010@email.com,14,2022-11-18,PYME,53,M,Pasto,Nariño,Oriente,2025-06-16 10:39:00,7,7,198,193006746,En riesgo
+11,Cliente_0011,cliente0011@email.com,13,2021-05-02,Residencial,52,M,Villavicencio,Meta,Oriente,2025-08-22 10:47:00,9,9,131,341480377,Regular
+12,Cliente_0012,cliente0012@email.com,8,2021-07-24,Residencial,69,F,Manizales,Caldas,Norte,2025-12-08 22:14:00,11,11,23,194507401,VIP
+13,Cliente_0013,cliente0013@email.com,10,2023-10-02,Residencial,29,F,Cúcuta,Norte de Santander,Occidente,2025-10-18 14:56:00,15,15,74,519861701,VIP
+14,Cliente_0014,cliente0014@email.com,9,2022-09-21,Residencial,24,F,Santa Marta,Magdalena,Occidente,2025-12-14 15:44:00,6,6,17,245493186,VIP
+15,Cliente_0015,cliente0015@email.com,2,2021-03-14,Residencial,46,F,Bogotá,Cundinamarca,Centro,2025-08-13 08:22:00,7,7,140,242469730,Regular
+16,Cliente_0016,cliente0016@email.com,11,2023-01-09,PYME,28,F,Ibagué,Tolima,Occidente,2025-11-30 14:44:00,14,14,31,447397047,VIP
+17,Cliente_0017,cliente0017@email.com,10,2020-09-27,Residencial,50,M,Cúcuta,Norte de Santander,Occidente,2025-08-25 19:53:00,11,11,128,202292157,Regular
+18,Cliente_0018,cliente0018@email.com,2,2024-01-21,Residencial,23,F,Bogotá,Cundinamarca,Centro,2025-09-27 21:15:00,10,10,95,348067939,Regular
+19,Cliente_0019,cliente0019@email.com,5,2023-03-15,Residencial,64,M,Cartagena,Bolívar,Norte,2025-07-04 20:20:00,10,10,180,274121342,Regular
+20,Cliente_0020,cliente0020@email.com,13,2023-03-26,Residencial,32,F,Villavicencio,Meta,Oriente,2025-07-10 14:22:00,7,7,174,208591620,Regular
+21,Cliente_0021,cliente0021@email.com,5,2022-08-26,Residencial,49,F,Cartagena,Bolívar,Norte,2025-12-27 19:07:00,12,12,4,371989969,VIP
+22,Cliente_0022,cliente0022@email.com,6,2021-05-12,PYME,68,M,Bucaramanga,Santander,Norte,2025-10-30 08:08:00,13,13,62,467483125,VIP
+23,Cliente_0023,cliente0023@email.com,3,2024-05-25,PYME,28,M,Cali,Valle,Centro,2024-12-14 21:52:00,5,5,382,177497917,Perdido
+24,Cliente_0024,cliente0024@email.com,8,2022-08-26,Residencial,40,M,Manizales,Caldas,Norte,2024-12-09 15:15:00,4,4,387,71888535,Perdido
+25,Cliente_0025,cliente0025@email.com,13,2024-07-11,Corporativo,43,M,Villavicencio,Meta,Oriente,2025-10-02 17:50:00,17,17,90,614327315,VIP
+26,Cliente_0026,cliente0026@email.com,1,2022-04-13,PYME,51,M,Medellín,Antioquia,Centro,2025-12-06 20:26:00,9,9,25,316526716,VIP
+27,Cliente_0027,cliente0027@email.com,6,2021-01-24,Residencial,63,F,Bucaramanga,Santander,Norte,2025-12-05 20:00:00,3,3,26,102052058,En riesgo
+28,Cliente_0028,cliente0028@email.com,4,2020-07-12,Educativo,51,F,Barranquilla,Atlántico,Centro,2025-06-23 20:32:00,15,15,191,462525550,En riesgo
+29,Cliente_0029,cliente0029@email.com,1,2020-07-17,Educativo,46,F,Medellín,Antioquia,Centro,2025-11-11 15:49:00,10,10,50,278454386,VIP
+30,Cliente_0030,cliente0030@email.com,15,2023-09-11,Residencial,21,F,Neiva,Huila,Oriente,2025-05-31 21:52:00,15,15,214,406815056,En riesgo
+31,Cliente_0031,cliente0031@email.com,7,2022-06-01,Residencial,34,F,Pereira,Risaralda,Norte,2025-10-26 20:48:00,6,6,66,194425175,VIP
+32,Cliente_0032,cliente0032@email.com,9,2021-12-26,Educativo,52,F,Santa Marta,Magdalena,Occidente,2025-12-29 10:17:00,8,8,2,261309572,VIP
+33,Cliente_0033,cliente0033@email.com,13,2022-05-17,PYME,30,M,Villavicencio,Meta,Oriente,2024-06-15 10:35:00,3,3,564,145346113,Perdido
+34,Cliente_0034,cliente0034@email.com,4,2022-04-21,Residencial,58,F,Barranquilla,Atlántico,Centro,2025-09-18 16:42:00,5,5,104,153108393,Regular
+35,Cliente_0035,cliente0035@email.com,4,2022-08-14,PYME,56,M,Barranquilla,Atlántico,Centro,2025-09-08 17:25:00,12,12,114,380772497,Regular
+36,Cliente_0036,cliente0036@email.com,6,2024-11-04,Corporativo,32,Otro,Bucaramanga,Santander,Norte,2025-12-19 16:57:00,5,5,12,118723299,Regular
+37,Cliente_0037,cliente0037@email.com,12,2024-02-02,PYME,46,F,Montería,Córdoba,Oriente,2025-04-19 13:05:00,9,9,256,396799217,En riesgo
+38,Cliente_0038,cliente0038@email.com,15,2020-04-20,PYME,46,F,Neiva,Huila,Oriente,2025-08-30 18:15:00,10,10,123,228728124,Regular
+39,Cliente_0039,cliente0039@email.com,3,2023-10-11,Corporativo,28,M,Cali,Valle,Centro,2025-11-28 12:10:00,14,14,33,399800992,VIP
+40,Cliente_0040,cliente0040@email.com,13,2023-08-31,Residencial,69,F,Villavicencio,Meta,Oriente,2025-12-11 12:31:00,8,8,20,219605123,VIP
+41,Cliente_0041,cliente0041@email.com,12,2023-08-16,Residencial,49,F,Montería,Córdoba,Oriente,2025-11-22 08:25:00,12,12,39,503622163,VIP
+42,Cliente_0042,cliente0042@email.com,6,2020-07-20,PYME,19,M,Bucaramanga,Santander,Norte,2025-10-12 19:37:00,9,9,80,276305967,VIP
+43,Cliente_0043,cliente0043@email.com,7,2020-05-04,Corporativo,64,M,Pereira,Risaralda,Norte,2025-02-14 13:34:00,10,10,320,233049432,En riesgo
+44,Cliente_0044,cliente0044@email.com,11,2022-04-04,Residencial,31,F,Ibagué,Tolima,Occidente,2025-12-07 11:22:00,11,11,24,336497306,VIP
+45,Cliente_0045,cliente0045@email.com,10,2024-01-31,PYME,37,M,Cúcuta,Norte de Santander,Occidente,2025-12-16 16:54:00,13,13,15,492884657,VIP
+46,Cliente_0046,cliente0046@email.com,10,2021-11-25,PYME,39,F,Cúcuta,Norte de Santander,Occidente,2024-10-24 19:29:00,12,12,433,209905443,Perdido
+47,Cliente_0047,cliente0047@email.com,3,2024-06-27,Residencial,28,M,Cali,Valle,Centro,2025-11-23 21:23:00,14,14,38,429783842,VIP
+48,Cliente_0048,cliente0048@email.com,7,2024-10-30,PYME,44,M,Pereira,Risaralda,Norte,2024-12-03 18:41:00,13,13,393,294438996,Perdido
+49,Cliente_0049,cliente0049@email.com,14,2020-08-11,Corporativo,20,F,Pasto,Nariño,Oriente,2025-09-16 11:51:00,9,9,106,128171114,Regular
+50,Cliente_0050,cliente0050@email.com,3,2021-05-24,PYME,34,M,Cali,Valle,Centro,2025-10-10 15:17:00,8,8,82,223367381,VIP
+51,Cliente_0051,cliente0051@email.com,13,2021-01-27,Residencial,61,F,Villavicencio,Meta,Oriente,2025-02-09 22:14:00,7,7,325,121557717,En riesgo
+52,Cliente_0052,cliente0052@email.com,13,2021-01-24,Residencial,45,M,Villavicencio,Meta,Oriente,2025-10-17 18:01:00,7,7,75,159280304,VIP
+53,Cliente_0053,cliente0053@email.com,2,2023-01-03,PYME,46,M,Bogotá,Cundinamarca,Centro,2025-10-05 17:00:00,9,9,87,170661563,VIP
+54,Cliente_0054,cliente0054@email.com,12,2022-07-07,Residencial,38,F,Montería,Córdoba,Oriente,2025-08-29 17:35:00,13,13,124,398849507,Regular
+55,Cliente_0055,cliente0055@email.com,14,2020-10-14,Residencial,64,F,Pasto,Nariño,Oriente,2025-09-29 12:08:00,8,8,93,266328514,Regular
+56,Cliente_0056,cliente0056@email.com,10,2022-05-14,Residencial,33,F,Cúcuta,Norte de Santander,Occidente,2025-09-18 09:17:00,9,9,104,207133655,Regular
+57,Cliente_0057,cliente0057@email.com,4,2021-01-10,Residencial,54,F,Barranquilla,Atlántico,Centro,2025-12-30 19:22:00,6,6,1,225967352,VIP
+58,Cliente_0058,cliente0058@email.com,12,2021-07-24,Residencial,37,F,Montería,Córdoba,Oriente,2025-12-13 20:36:00,11,11,18,365909929,VIP
+59,Cliente_0059,cliente0059@email.com,8,2022-08-05,Residencial,23,M,Manizales,Caldas,Norte,2025-11-13 08:58:00,17,17,48,485205470,VIP
+60,Cliente_0060,cliente0060@email.com,13,2021-05-26,Residencial,36,M,Villavicencio,Meta,Oriente,2025-11-15 22:30:00,7,7,46,266964180,VIP
+61,Cliente_0061,cliente0061@email.com,15,2024-11-25,Residencial,22,F,Neiva,Huila,Oriente,2025-11-17 08:55:00,11,11,44,326163422,VIP
+62,Cliente_0062,cliente0062@email.com,9,2020-06-03,PYME,20,F,Santa Marta,Magdalena,Occidente,2025-07-29 12:13:00,9,9,155,246911127,Regular
+63,Cliente_0063,cliente0063@email.com,7,2022-06-26,PYME,18,F,Pereira,Risaralda,Norte,2025-02-01 18:10:00,12,12,333,413435516,En riesgo
+64,Cliente_0064,cliente0064@email.com,1,2024-07-12,Residencial,55,M,Medellín,Antioquia,Centro,2025-11-04 20:42:00,10,10,57,261444639,VIP
+65,Cliente_0065,cliente0065@email.com,3,2024-10-30,Corporativo,32,M,Cali,Valle,Centro,2025-12-21 14:14:00,10,10,10,223126746,VIP
+66,Cliente_0066,cliente0066@email.com,13,2024-10-19,Residencial,51,F,Villavicencio,Meta,Oriente,2025-10-25 18:49:00,7,7,67,151616135,VIP
+67,Cliente_0067,cliente0067@email.com,12,2023-02-01,PYME,52,F,Montería,Córdoba,Oriente,2025-11-06 20:37:00,7,7,55,198956843,VIP
+68,Cliente_0068,cliente0068@email.com,14,2020-07-19,PYME,66,F,Pasto,Nariño,Oriente,2025-08-28 13:18:00,11,11,125,285512397,Regular
+69,Cliente_0069,cliente0069@email.com,9,2020-04-13,Educativo,42,F,Santa Marta,Magdalena,Occidente,2025-12-17 19:23:00,7,7,14,157729024,VIP
+70,Cliente_0070,cliente0070@email.com,15,2023-08-28,PYME,41,F,Neiva,Huila,Oriente,2025-11-25 10:27:00,10,10,36,358364144,VIP
+71,Cliente_0071,cliente0071@email.com,12,2023-01-12,PYME,29,M,Montería,Córdoba,Oriente,2025-05-19 19:31:00,7,7,226,105544179,En riesgo
+72,Cliente_0072,cliente0072@email.com,1,2024-09-08,PYME,35,M,Medellín,Antioquia,Centro,2025-10-30 18:11:00,13,13,62,371690829,VIP
+73,Cliente_0073,cliente0073@email.com,9,2020-01-31,Residencial,32,M,Santa Marta,Magdalena,Occidente,2025-11-28 20:25:00,14,14,33,421900170,VIP
+74,Cliente_0074,cliente0074@email.com,8,2020-07-10,Residencial,61,M,Manizales,Caldas,Norte,2025-12-29 12:58:00,9,9,2,252795008,VIP
+75,Cliente_0075,cliente0075@email.com,1,2024-03-23,PYME,33,F,Medellín,Antioquia,Centro,2025-11-06 21:59:00,14,14,55,412551883,VIP
+76,Cliente_0076,cliente0076@email.com,6,2024-10-04,Residencial,44,M,Bucaramanga,Santander,Norte,2025-12-24 16:48:00,15,15,7,304412742,VIP
+77,Cliente_0077,cliente0077@email.com,5,2021-04-29,PYME,25,F,Cartagena,Bolívar,Norte,2025-08-01 13:09:00,9,9,152,308700630,Regular
+78,Cliente_0078,cliente0078@email.com,6,2020-12-06,Residencial,63,M,Bucaramanga,Santander,Norte,2024-05-15 19:42:00,5,5,595,187335553,Perdido
+79,Cliente_0079,cliente0079@email.com,10,2022-04-12,Residencial,42,M,Cúcuta,Norte de Santander,Occidente,2025-11-12 09:15:00,9,9,49,194491705,VIP
+80,Cliente_0080,cliente0080@email.com,12,2022-09-21,Residencial,34,M,Montería,Córdoba,Oriente,2025-06-18 21:42:00,3,3,196,33148968,En riesgo
+81,Cliente_0081,cliente0081@email.com,13,2022-09-12,Residencial,46,M,Villavicencio,Meta,Oriente,2025-11-24 14:38:00,5,5,37,141516472,Regular
+82,Cliente_0082,cliente0082@email.com,13,2021-03-13,PYME,25,F,Villavicencio,Meta,Oriente,2025-11-26 22:33:00,7,7,35,152162778,VIP
+83,Cliente_0083,cliente0083@email.com,13,2024-11-05,Residencial,32,M,Villavicencio,Meta,Oriente,2025-06-26 11:47:00,11,11,188,407360940,En riesgo
+84,Cliente_0084,cliente0084@email.com,15,2022-04-01,Residencial,44,F,Neiva,Huila,Oriente,2025-09-07 16:26:00,12,12,115,402798248,Regular
+85,Cliente_0085,cliente0085@email.com,5,2020-04-30,Residencial,63,M,Cartagena,Bolívar,Norte,2025-10-27 11:22:00,8,8,65,250056124,VIP
+86,Cliente_0086,cliente0086@email.com,6,2020-12-03,Residencial,67,M,Bucaramanga,Santander,Norte,2025-08-13 12:43:00,8,8,140,209196949,Regular
+87,Cliente_0087,cliente0087@email.com,5,2022-02-15,PYME,69,M,Cartagena,Bolívar,Norte,2025-12-06 18:42:00,9,9,25,355849002,VIP
+88,Cliente_0088,cliente0088@email.com,11,2020-01-05,Residencial,24,F,Ibagué,Tolima,Occidente,2025-10-02 15:43:00,9,9,90,250774694,VIP
+89,Cliente_0089,cliente0089@email.com,12,2022-03-10,PYME,20,F,Montería,Córdoba,Oriente,2025-03-05 22:27:00,11,11,301,299099376,En riesgo
+90,Cliente_0090,cliente0090@email.com,5,2021-06-27,PYME,46,M,Cartagena,Bolívar,Norte,2025-08-08 20:27:00,13,13,145,405305340,Regular
+91,Cliente_0091,cliente0091@email.com,4,2024-05-24,PYME,61,M,Barranquilla,Atlántico,Centro,2025-09-13 20:18:00,8,8,109,232882066,Regular
+92,Cliente_0092,cliente0092@email.com,3,2024-05-26,PYME,41,F,Cali,Valle,Centro,2025-12-14 08:16:00,8,8,17,231618919,VIP
+93,Cliente_0093,cliente0093@email.com,3,2022-07-20,Corporativo,20,M,Cali,Valle,Centro,2025-12-12 17:44:00,15,15,19,555441608,VIP
+94,Cliente_0094,cliente0094@email.com,4,2021-08-07,Educativo,37,M,Barranquilla,Atlántico,Centro,2025-12-10 09:18:00,12,12,21,428824802,VIP
+95,Cliente_0095,cliente0095@email.com,9,2022-05-16,Residencial,63,F,Santa Marta,Magdalena,Occidente,2025-03-14 13:27:00,10,10,292,175231567,En riesgo
+96,Cliente_0096,cliente0096@email.com,2,2023-11-27,Residencial,32,F,Bogotá,Cundinamarca,Centro,2025-10-09 09:14:00,13,13,83,374221758,VIP
+97,Cliente_0097,cliente0097@email.com,15,2024-02-05,Residencial,42,M,Neiva,Huila,Oriente,2025-05-27 10:55:00,4,4,218,114602669,En riesgo
+98,Cliente_0098,cliente0098@email.com,9,2024-05-23,Residencial,47,F,Santa Marta,Magdalena,Occidente,2025-01-12 16:30:00,10,10,353,392588699,En riesgo
+99,Cliente_0099,cliente0099@email.com,1,2023-02-12,PYME,31,F,Medellín,Antioquia,Centro,2025-11-01 15:25:00,12,12,60,411344181,VIP
+100,Cliente_0100,cliente0100@email.com,14,2023-09-17,Corporativo,24,M,Pasto,Nariño,Oriente,2025-11-08 14:32:00,9,9,53,241831008,VIP
+101,Cliente_0101,cliente0101@email.com,15,2024-01-11,Residencial,34,F,Neiva,Huila,Oriente,2025-11-26 22:39:00,13,13,35,416336443,VIP
+102,Cliente_0102,cliente0102@email.com,15,2022-09-23,Residencial,61,F,Neiva,Huila,Oriente,2025-06-28 21:10:00,11,11,186,367117131,En riesgo
+103,Cliente_0103,cliente0103@email.com,1,2020-11-13,Residencial,37,M,Medellín,Antioquia,Centro,2025-10-26 09:18:00,9,9,66,253063401,VIP
+104,Cliente_0104,cliente0104@email.com,5,2021-01-23,PYME,53,M,Cartagena,Bolívar,Norte,2025-12-13 21:23:00,14,14,18,319638090,VIP
+105,Cliente_0105,cliente0105@email.com,6,2021-08-30,PYME,26,M,Bucaramanga,Santander,Norte,2025-11-25 09:05:00,5,5,36,152719810,Regular
+106,Cliente_0106,cliente0106@email.com,6,2021-03-21,Residencial,55,F,Bucaramanga,Santander,Norte,2025-09-05 15:43:00,12,12,117,434513136,Regular
+107,Cliente_0107,cliente0107@email.com,3,2020-04-29,Corporativo,65,M,Cali,Valle,Centro,2025-09-16 17:46:00,9,9,106,329171360,Regular
+108,Cliente_0108,cliente0108@email.com,7,2023-04-01,PYME,39,F,Pereira,Risaralda,Norte,2025-12-23 11:01:00,11,11,8,225233397,VIP
+109,Cliente_0109,cliente0109@email.com,9,2024-02-15,Residencial,19,F,Santa Marta,Magdalena,Occidente,2025-09-06 10:29:00,17,17,116,481948616,Regular
+110,Cliente_0110,cliente0110@email.com,11,2023-01-15,PYME,41,M,Ibagué,Tolima,Occidente,2025-11-23 20:40:00,10,10,38,227747920,VIP
+111,Cliente_0111,cliente0111@email.com,12,2020-05-04,PYME,25,F,Montería,Córdoba,Oriente,2025-08-24 16:22:00,15,15,129,439479452,Regular
+112,Cliente_0112,cliente0112@email.com,10,2024-03-11,Residencial,28,M,Cúcuta,Norte de Santander,Occidente,2025-09-05 12:09:00,11,11,117,361127356,Regular
+113,Cliente_0113,cliente0113@email.com,8,2021-10-04,Residencial,30,F,Manizales,Caldas,Norte,2025-12-28 12:07:00,10,10,3,266944532,VIP
+114,Cliente_0114,cliente0114@email.com,6,2020-04-27,Residencial,34,F,Bucaramanga,Santander,Norte,2025-11-24 11:05:00,8,8,37,176410201,VIP
+115,Cliente_0115,cliente0115@email.com,12,2020-04-12,Residencial,25,M,Montería,Córdoba,Oriente,2025-09-23 12:21:00,6,6,99,230392526,Regular
+116,Cliente_0116,cliente0116@email.com,8,2023-04-11,Corporativo,38,M,Manizales,Caldas,Norte,2025-12-28 08:40:00,14,14,3,437952581,VIP
+117,Cliente_0117,cliente0117@email.com,12,2022-09-03,Corporativo,35,M,Montería,Córdoba,Oriente,2025-12-04 14:08:00,9,9,27,221334750,VIP
+118,Cliente_0118,cliente0118@email.com,5,2022-10-26,Residencial,47,M,Cartagena,Bolívar,Norte,2025-10-22 16:42:00,15,15,70,357361668,VIP
+119,Cliente_0119,cliente0119@email.com,8,2024-10-12,Residencial,35,M,Manizales,Caldas,Norte,2025-07-16 10:38:00,7,7,168,150400261,Regular
+120,Cliente_0120,cliente0120@email.com,10,2022-12-23,Residencial,63,M,Cúcuta,Norte de Santander,Occidente,2025-08-02 21:10:00,7,7,151,286786397,Regular
+121,Cliente_0121,cliente0121@email.com,12,2020-11-18,Residencial,64,Otro,Montería,Córdoba,Oriente,2025-02-25 13:27:00,4,4,309,82419230,En riesgo
+122,Cliente_0122,cliente0122@email.com,4,2020-04-26,Corporativo,48,M,Barranquilla,Atlántico,Centro,2025-08-14 15:56:00,11,11,139,330081182,Regular
+123,Cliente_0123,cliente0123@email.com,10,2022-11-06,Residencial,55,M,Cúcuta,Norte de Santander,Occidente,2025-07-20 22:02:00,7,7,164,160797436,Regular
+124,Cliente_0124,cliente0124@email.com,8,2020-06-13,Residencial,49,F,Manizales,Caldas,Norte,2025-07-24 18:47:00,9,9,160,267619155,Regular
+125,Cliente_0125,cliente0125@email.com,10,2024-10-09,Residencial,28,M,Cúcuta,Norte de Santander,Occidente,2025-12-27 22:18:00,10,10,4,258258980,VIP
+126,Cliente_0126,cliente0126@email.com,12,2021-01-15,PYME,62,Otro,Montería,Córdoba,Oriente,2025-12-12 14:20:00,13,13,19,305901213,VIP
+127,Cliente_0127,cliente0127@email.com,2,2020-05-20,Residencial,42,F,Bogotá,Cundinamarca,Centro,2025-12-07 18:04:00,14,14,24,454497067,VIP
+128,Cliente_0128,cliente0128@email.com,12,2023-05-03,PYME,50,F,Montería,Córdoba,Oriente,2025-04-17 18:31:00,10,10,258,159978383,En riesgo
+129,Cliente_0129,cliente0129@email.com,12,2020-05-19,Residencial,55,M,Montería,Córdoba,Oriente,2025-11-21 18:21:00,11,11,40,324196266,VIP
+130,Cliente_0130,cliente0130@email.com,5,2023-10-14,PYME,58,M,Cartagena,Bolívar,Norte,2025-09-11 09:21:00,5,5,111,137300848,Regular
+131,Cliente_0131,cliente0131@email.com,9,2024-10-31,PYME,25,M,Santa Marta,Magdalena,Occidente,2025-08-20 12:02:00,5,5,133,159976700,Regular
+132,Cliente_0132,cliente0132@email.com,4,2021-04-26,Residencial,28,F,Barranquilla,Atlántico,Centro,2025-10-27 17:51:00,9,9,65,227937814,VIP
+133,Cliente_0133,cliente0133@email.com,11,2022-04-06,Residencial,39,M,Ibagué,Tolima,Occidente,2025-12-08 22:32:00,6,6,23,139731911,VIP
+134,Cliente_0134,cliente0134@email.com,6,2020-09-02,Corporativo,68,M,Bucaramanga,Santander,Norte,2025-10-04 11:20:00,13,13,88,393472701,VIP
+135,Cliente_0135,cliente0135@email.com,15,2023-03-12,Educativo,41,Otro,Neiva,Huila,Oriente,2024-02-12 16:29:00,6,6,688,165117814,Perdido
+136,Cliente_0136,cliente0136@email.com,1,2021-05-19,Residencial,58,M,Medellín,Antioquia,Centro,2025-06-21 15:49:00,7,7,193,223746481,En riesgo
+137,Cliente_0137,cliente0137@email.com,9,2023-03-31,Residencial,34,M,Santa Marta,Magdalena,Occidente,2025-10-20 18:29:00,15,15,72,454354725,VIP
+138,Cliente_0138,cliente0138@email.com,1,2023-05-02,Corporativo,29,M,Medellín,Antioquia,Centro,2025-09-20 19:28:00,12,12,102,365995893,Regular
+139,Cliente_0139,cliente0139@email.com,5,2020-03-22,PYME,63,Otro,Cartagena,Bolívar,Norte,2025-10-28 08:51:00,13,13,64,308916776,VIP
+140,Cliente_0140,cliente0140@email.com,4,2023-06-22,Residencial,49,M,Barranquilla,Atlántico,Centro,2025-10-24 12:45:00,8,8,68,189118617,VIP
+141,Cliente_0141,cliente0141@email.com,13,2020-06-16,Corporativo,32,F,Villavicencio,Meta,Oriente,2025-11-24 16:46:00,16,16,37,433482121,VIP
+142,Cliente_0142,cliente0142@email.com,12,2022-05-08,Residencial,33,F,Montería,Córdoba,Oriente,2025-01-19 09:50:00,8,8,346,272276910,En riesgo
+143,Cliente_0143,cliente0143@email.com,13,2023-09-08,PYME,39,M,Villavicencio,Meta,Oriente,2025-11-11 14:26:00,9,9,50,220233983,VIP
+144,Cliente_0144,cliente0144@email.com,13,2023-04-10,Residencial,45,F,Villavicencio,Meta,Oriente,2025-07-07 18:12:00,9,9,177,194973830,Regular
+145,Cliente_0145,cliente0145@email.com,14,2023-03-03,Residencial,37,M,Pasto,Nariño,Oriente,2025-11-28 15:11:00,6,6,33,254341616,VIP
+146,Cliente_0146,cliente0146@email.com,3,2022-12-06,Residencial,50,M,Cali,Valle,Centro,2025-11-21 21:57:00,15,15,40,417313183,VIP
+147,Cliente_0147,cliente0147@email.com,13,2021-10-09,PYME,27,F,Villavicencio,Meta,Oriente,2025-09-30 12:20:00,16,16,92,503241254,Regular
+148,Cliente_0148,cliente0148@email.com,6,2021-06-18,Residencial,57,F,Bucaramanga,Santander,Norte,2025-12-30 17:15:00,12,12,1,428684029,VIP
+149,Cliente_0149,cliente0149@email.com,2,2021-02-22,Residencial,49,F,Bogotá,Cundinamarca,Centro,2025-08-16 14:05:00,11,11,137,310479573,Regular
+150,Cliente_0150,cliente0150@email.com,3,2023-10-03,Residencial,67,F,Cali,Valle,Centro,2025-12-02 09:16:00,11,11,29,326908065,VIP
+151,Cliente_0151,cliente0151@email.com,5,2024-01-06,Residencial,50,M,Cartagena,Bolívar,Norte,2025-09-17 14:30:00,9,9,105,288098701,Regular
+152,Cliente_0152,cliente0152@email.com,15,2021-10-05,Educativo,19,M,Neiva,Huila,Oriente,2025-09-28 17:26:00,7,7,94,240920718,Regular
+153,Cliente_0153,cliente0153@email.com,9,2021-05-03,Residencial,50,M,Santa Marta,Magdalena,Occidente,2025-06-11 12:48:00,9,9,203,179336296,En riesgo
+154,Cliente_0154,cliente0154@email.com,2,2021-06-27,PYME,50,M,Bogotá,Cundinamarca,Centro,2025-12-29 11:46:00,14,14,2,370814053,VIP
+155,Cliente_0155,cliente0155@email.com,10,2022-03-21,Corporativo,58,M,Cúcuta,Norte de Santander,Occidente,2025-11-29 19:40:00,10,10,32,272518537,VIP
+156,Cliente_0156,cliente0156@email.com,8,2020-09-25,Residencial,30,M,Manizales,Caldas,Norte,2025-12-28 14:20:00,15,15,3,479691353,VIP
+157,Cliente_0157,cliente0157@email.com,14,2023-10-07,Residencial,47,M,Pasto,Nariño,Oriente,2025-08-18 16:00:00,7,7,135,215911567,Regular
+158,Cliente_0158,cliente0158@email.com,2,2023-08-14,Residencial,50,M,Bogotá,Cundinamarca,Centro,2025-05-11 11:14:00,7,7,234,254804356,En riesgo
+159,Cliente_0159,cliente0159@email.com,11,2021-09-06,Residencial,30,F,Ibagué,Tolima,Occidente,2025-02-10 08:51:00,5,5,324,125885696,En riesgo
+160,Cliente_0160,cliente0160@email.com,13,2022-07-25,Residencial,69,F,Villavicencio,Meta,Oriente,2025-04-20 20:20:00,8,8,255,271820895,En riesgo
+161,Cliente_0161,cliente0161@email.com,5,2021-10-09,Residencial,43,M,Cartagena,Bolívar,Norte,2025-07-31 13:09:00,9,9,153,266741903,Regular
+162,Cliente_0162,cliente0162@email.com,7,2024-03-19,PYME,39,F,Pereira,Risaralda,Norte,2025-12-01 15:07:00,14,14,30,310276206,VIP
+163,Cliente_0163,cliente0163@email.com,8,2020-05-28,Residencial,56,F,Manizales,Caldas,Norte,2025-12-23 14:30:00,13,13,8,358885862,VIP
+164,Cliente_0164,cliente0164@email.com,1,2020-01-20,Residencial,19,M,Medellín,Antioquia,Centro,2025-12-20 14:50:00,14,14,11,414472686,VIP
+165,Cliente_0165,cliente0165@email.com,6,2022-07-27,PYME,55,F,Bucaramanga,Santander,Norte,2025-09-08 08:05:00,7,7,114,180533780,Regular
+166,Cliente_0166,cliente0166@email.com,1,2023-06-26,Residencial,56,F,Medellín,Antioquia,Centro,2025-11-02 14:46:00,13,13,59,346814344,VIP
+167,Cliente_0167,cliente0167@email.com,2,2023-02-27,Corporativo,43,F,Bogotá,Cundinamarca,Centro,2025-11-15 08:57:00,8,8,46,310633056,VIP
+168,Cliente_0168,cliente0168@email.com,15,2020-07-23,PYME,63,M,Neiva,Huila,Oriente,2025-12-18 20:50:00,10,10,13,283350776,VIP
+169,Cliente_0169,cliente0169@email.com,1,2020-05-30,Residencial,67,F,Medellín,Antioquia,Centro,2025-08-10 09:05:00,8,8,143,156809849,Regular
+170,Cliente_0170,cliente0170@email.com,11,2023-01-06,PYME,32,M,Ibagué,Tolima,Occidente,2025-09-24 18:20:00,7,7,98,167897609,Regular
+171,Cliente_0171,cliente0171@email.com,5,2021-03-12,Residencial,51,F,Cartagena,Bolívar,Norte,2025-11-02 12:23:00,13,13,59,295828388,VIP
+172,Cliente_0172,cliente0172@email.com,10,2022-11-02,Residencial,59,F,Cúcuta,Norte de Santander,Occidente,2025-05-18 15:38:00,4,4,227,182168005,En riesgo
+173,Cliente_0173,cliente0173@email.com,15,2021-06-27,Residencial,61,F,Neiva,Huila,Oriente,2025-09-15 20:36:00,15,15,107,458180437,Regular
+174,Cliente_0174,cliente0174@email.com,9,2020-09-28,Residencial,66,F,Santa Marta,Magdalena,Occidente,2025-11-03 14:08:00,6,6,58,176811446,VIP
+175,Cliente_0175,cliente0175@email.com,6,2021-12-15,PYME,57,F,Bucaramanga,Santander,Norte,2025-09-28 08:07:00,15,15,94,429612312,Regular
+176,Cliente_0176,cliente0176@email.com,11,2020-05-20,Residencial,28,M,Ibagué,Tolima,Occidente,2025-09-29 21:09:00,10,10,93,311403915,Regular
+177,Cliente_0177,cliente0177@email.com,11,2024-12-05,Residencial,20,M,Ibagué,Tolima,Occidente,2025-06-19 14:56:00,9,9,195,253905595,En riesgo
+178,Cliente_0178,cliente0178@email.com,1,2021-05-15,Residencial,23,F,Medellín,Antioquia,Centro,2025-10-15 20:35:00,6,6,77,129516962,VIP
+179,Cliente_0179,cliente0179@email.com,13,2022-01-26,PYME,26,M,Villavicencio,Meta,Oriente,2025-12-03 13:12:00,12,12,28,456900198,VIP
+180,Cliente_0180,cliente0180@email.com,1,2021-08-06,Residencial,23,M,Medellín,Antioquia,Centro,2025-10-16 20:05:00,8,8,76,201563508,VIP
+181,Cliente_0181,cliente0181@email.com,2,2020-11-19,Corporativo,26,M,Bogotá,Cundinamarca,Centro,2025-11-15 21:39:00,14,14,46,344675935,VIP
+182,Cliente_0182,cliente0182@email.com,9,2022-06-16,Residencial,56,M,Santa Marta,Magdalena,Occidente,2025-12-14 21:48:00,12,12,17,438408719,VIP
+183,Cliente_0183,cliente0183@email.com,3,2024-09-03,Corporativo,48,F,Cali,Valle,Centro,2025-12-16 14:07:00,10,10,15,363445273,VIP
+184,Cliente_0184,cliente0184@email.com,15,2023-01-17,Educativo,49,F,Neiva,Huila,Oriente,2025-12-28 21:38:00,11,11,3,340548347,VIP
+185,Cliente_0185,cliente0185@email.com,1,2023-12-11,Corporativo,58,F,Medellín,Antioquia,Centro,2025-09-29 09:33:00,6,6,93,148835686,Regular
+186,Cliente_0186,cliente0186@email.com,5,2021-09-11,Corporativo,67,F,Cartagena,Bolívar,Norte,2025-11-30 12:26:00,7,7,31,225170766,VIP
+187,Cliente_0187,cliente0187@email.com,7,2023-06-06,Residencial,29,M,Pereira,Risaralda,Norte,2025-10-21 08:49:00,16,16,71,558699681,VIP
+188,Cliente_0188,cliente0188@email.com,6,2024-07-10,PYME,25,M,Bucaramanga,Santander,Norte,2025-10-05 16:19:00,17,17,87,471492685,VIP
+189,Cliente_0189,cliente0189@email.com,12,2023-09-01,Residencial,25,F,Montería,Córdoba,Oriente,2025-07-11 15:14:00,11,11,173,320147899,Regular
+190,Cliente_0190,cliente0190@email.com,1,2022-12-19,Residencial,67,M,Medellín,Antioquia,Centro,2025-12-28 19:09:00,14,14,3,406927475,VIP
+191,Cliente_0191,cliente0191@email.com,5,2020-01-17,Residencial,45,F,Cartagena,Bolívar,Norte,2025-05-06 16:02:00,12,12,239,309802635,En riesgo
+192,Cliente_0192,cliente0192@email.com,15,2023-09-29,PYME,37,F,Neiva,Huila,Oriente,2025-07-25 09:07:00,11,11,159,305436839,Regular
+193,Cliente_0193,cliente0193@email.com,5,2024-07-31,Residencial,64,M,Cartagena,Bolívar,Norte,2024-05-11 19:28:00,8,8,599,284163912,Perdido
+194,Cliente_0194,cliente0194@email.com,6,2023-02-09,PYME,24,F,Bucaramanga,Santander,Norte,2025-12-30 16:59:00,9,9,1,173079373,VIP
+195,Cliente_0195,cliente0195@email.com,3,2021-09-05,Corporativo,28,F,Cali,Valle,Centro,2025-10-11 20:43:00,12,12,81,439688874,VIP
+196,Cliente_0196,cliente0196@email.com,5,2023-09-20,PYME,37,F,Cartagena,Bolívar,Norte,2025-09-03 10:32:00,7,7,119,231147698,Regular
+197,Cliente_0197,cliente0197@email.com,7,2020-07-31,PYME,33,M,Pereira,Risaralda,Norte,2025-12-14 21:07:00,12,12,17,317894374,VIP
+198,Cliente_0198,cliente0198@email.com,5,2024-12-03,Corporativo,21,M,Cartagena,Bolívar,Norte,2025-09-07 15:13:00,4,4,115,136401924,Regular
+199,Cliente_0199,cliente0199@email.com,5,2020-10-02,Educativo,23,F,Cartagena,Bolívar,Norte,2025-12-29 12:56:00,6,6,2,217666116,VIP
+200,Cliente_0200,cliente0200@email.com,5,2021-06-25,PYME,39,M,Cartagena,Bolívar,Norte,2025-12-22 13:38:00,6,6,9,217209719,VIP
+201,Cliente_0201,cliente0201@email.com,10,2020-08-24,Corporativo,43,M,Cúcuta,Norte de Santander,Occidente,2025-11-22 17:50:00,14,14,39,595502473,VIP
+202,Cliente_0202,cliente0202@email.com,10,2020-08-07,Educativo,20,F,Cúcuta,Norte de Santander,Occidente,2025-07-14 10:57:00,10,10,170,353891668,Regular
+203,Cliente_0203,cliente0203@email.com,3,2024-02-29,Educativo,58,M,Cali,Valle,Centro,2025-12-22 12:29:00,8,8,9,248239379,VIP
+204,Cliente_0204,cliente0204@email.com,1,2023-02-07,Residencial,59,F,Medellín,Antioquia,Centro,2025-11-26 08:47:00,9,9,35,320691796,VIP
+205,Cliente_0205,cliente0205@email.com,5,2020-11-14,Residencial,31,F,Cartagena,Bolívar,Norte,2025-12-08 12:49:00,6,6,23,79473372,VIP
+206,Cliente_0206,cliente0206@email.com,14,2021-07-11,Residencial,28,F,Pasto,Nariño,Oriente,2025-08-20 19:06:00,13,13,133,309555047,Regular
+207,Cliente_0207,cliente0207@email.com,9,2021-07-31,Residencial,35,M,Santa Marta,Magdalena,Occidente,2025-09-06 19:48:00,11,11,116,192148406,Regular
+208,Cliente_0208,cliente0208@email.com,14,2023-05-23,PYME,29,F,Pasto,Nariño,Oriente,2025-08-17 15:20:00,15,15,136,427931939,Regular
+209,Cliente_0209,cliente0209@email.com,1,2021-03-07,PYME,40,M,Medellín,Antioquia,Centro,2025-12-19 09:30:00,12,12,12,377981618,VIP
+210,Cliente_0210,cliente0210@email.com,3,2024-01-09,Corporativo,29,M,Cali,Valle,Centro,2025-12-04 18:17:00,14,14,27,408670979,VIP
+211,Cliente_0211,cliente0211@email.com,13,2021-12-03,Residencial,30,F,Villavicencio,Meta,Oriente,2025-08-24 13:24:00,9,9,129,292321609,Regular
+212,Cliente_0212,cliente0212@email.com,13,2021-02-20,Corporativo,42,M,Villavicencio,Meta,Oriente,2025-11-16 15:32:00,8,8,45,265017802,VIP
+213,Cliente_0213,cliente0213@email.com,4,2023-11-08,PYME,62,M,Barranquilla,Atlántico,Centro,2025-10-22 09:11:00,7,7,70,189043130,VIP
+214,Cliente_0214,cliente0214@email.com,14,2023-07-22,PYME,68,F,Pasto,Nariño,Oriente,2025-10-31 10:05:00,20,20,61,547472140,VIP
+215,Cliente_0215,cliente0215@email.com,1,2024-10-12,Corporativo,36,M,Medellín,Antioquia,Centro,2025-11-29 12:51:00,11,11,32,402525410,VIP
+216,Cliente_0216,cliente0216@email.com,1,2021-06-24,PYME,63,M,Medellín,Antioquia,Centro,2025-11-07 20:10:00,11,11,54,183060060,VIP
+217,Cliente_0217,cliente0217@email.com,8,2022-11-01,Residencial,53,F,Manizales,Caldas,Norte,2025-06-24 18:59:00,9,9,190,268818616,En riesgo
+218,Cliente_0218,cliente0218@email.com,2,2022-09-27,Corporativo,62,F,Bogotá,Cundinamarca,Centro,2025-07-30 20:49:00,10,10,154,330363198,Regular
+219,Cliente_0219,cliente0219@email.com,12,2021-05-29,Residencial,25,F,Montería,Córdoba,Oriente,2025-10-17 18:06:00,7,7,75,234125739,VIP
+220,Cliente_0220,cliente0220@email.com,15,2024-09-28,Residencial,46,M,Neiva,Huila,Oriente,2025-10-18 08:17:00,12,12,74,450574277,VIP
+221,Cliente_0221,cliente0221@email.com,8,2020-04-14,Corporativo,49,M,Manizales,Caldas,Norte,2025-07-13 18:57:00,10,10,171,289464535,Regular
+222,Cliente_0222,cliente0222@email.com,7,2020-07-08,Residencial,68,M,Pereira,Risaralda,Norte,2025-07-17 14:26:00,11,11,167,332533528,Regular
+223,Cliente_0223,cliente0223@email.com,10,2023-07-23,PYME,61,M,Cúcuta,Norte de Santander,Occidente,2025-12-27 17:16:00,8,8,4,257682400,VIP
+224,Cliente_0224,cliente0224@email.com,10,2022-05-17,Residencial,35,F,Cúcuta,Norte de Santander,Occidente,2025-04-02 19:53:00,8,8,273,340340954,En riesgo
+225,Cliente_0225,cliente0225@email.com,2,2024-08-25,Corporativo,23,M,Bogotá,Cundinamarca,Centro,2025-11-09 11:01:00,10,10,52,336949508,VIP
+226,Cliente_0226,cliente0226@email.com,6,2021-07-20,Residencial,35,M,Bucaramanga,Santander,Norte,2025-12-23 15:22:00,9,9,8,189505181,VIP
+227,Cliente_0227,cliente0227@email.com,6,2020-03-31,Educativo,36,F,Bucaramanga,Santander,Norte,2025-05-18 19:16:00,10,10,227,309223618,En riesgo
+228,Cliente_0228,cliente0228@email.com,3,2020-01-08,PYME,39,F,Cali,Valle,Centro,2025-04-24 10:53:00,7,7,251,290083702,En riesgo
+229,Cliente_0229,cliente0229@email.com,11,2021-11-14,Residencial,54,F,Ibagué,Tolima,Occidente,2025-07-23 13:44:00,5,5,161,80196891,Regular
+230,Cliente_0230,cliente0230@email.com,2,2024-04-28,PYME,49,M,Bogotá,Cundinamarca,Centro,2025-09-19 08:56:00,8,8,103,286343517,Regular
+231,Cliente_0231,cliente0231@email.com,12,2020-09-24,Educativo,58,M,Montería,Córdoba,Oriente,2025-11-13 10:15:00,4,4,48,144576612,Regular
+232,Cliente_0232,cliente0232@email.com,1,2023-07-28,Residencial,20,M,Medellín,Antioquia,Centro,2025-06-03 14:54:00,9,9,211,262522362,En riesgo
+233,Cliente_0233,cliente0233@email.com,6,2021-06-20,Residencial,45,M,Bucaramanga,Santander,Norte,2025-10-25 13:15:00,9,9,67,291684129,VIP
+234,Cliente_0234,cliente0234@email.com,12,2020-11-26,Residencial,27,F,Montería,Córdoba,Oriente,2025-05-29 14:00:00,6,6,216,115342208,En riesgo
+235,Cliente_0235,cliente0235@email.com,5,2024-02-27,Residencial,68,F,Cartagena,Bolívar,Norte,2025-12-07 16:50:00,10,10,24,174511717,VIP
+236,Cliente_0236,cliente0236@email.com,14,2022-06-23,PYME,52,F,Pasto,Nariño,Oriente,2025-10-07 20:49:00,8,8,85,245988196,VIP
+237,Cliente_0237,cliente0237@email.com,14,2023-02-03,PYME,46,F,Pasto,Nariño,Oriente,2025-07-30 17:21:00,16,16,154,525748970,Regular
+238,Cliente_0238,cliente0238@email.com,11,2023-12-16,Residencial,32,M,Ibagué,Tolima,Occidente,2025-10-30 09:14:00,7,7,62,145724585,VIP
+239,Cliente_0239,cliente0239@email.com,9,2022-05-25,Residencial,50,F,Santa Marta,Magdalena,Occidente,2025-10-07 11:13:00,14,14,85,244842995,VIP
+240,Cliente_0240,cliente0240@email.com,1,2023-02-22,PYME,24,M,Medellín,Antioquia,Centro,2025-09-28 20:25:00,6,6,94,158599512,Regular
+241,Cliente_0241,cliente0241@email.com,15,2020-01-20,Residencial,29,F,Neiva,Huila,Oriente,2025-08-22 22:43:00,10,10,131,338973150,Regular
+242,Cliente_0242,cliente0242@email.com,15,2020-08-17,Residencial,66,F,Neiva,Huila,Oriente,2025-12-09 22:36:00,10,10,22,208538522,VIP
+243,Cliente_0243,cliente0243@email.com,7,2020-06-03,Corporativo,47,M,Pereira,Risaralda,Norte,2024-07-24 11:07:00,4,4,525,121792212,Perdido
+244,Cliente_0244,cliente0244@email.com,15,2023-11-16,PYME,38,M,Neiva,Huila,Oriente,2025-04-12 12:33:00,7,7,263,147161545,En riesgo
+245,Cliente_0245,cliente0245@email.com,5,2020-11-01,PYME,48,Otro,Cartagena,Bolívar,Norte,2025-12-09 15:56:00,11,11,22,363930408,VIP
+246,Cliente_0246,cliente0246@email.com,5,2023-01-22,Corporativo,41,M,Cartagena,Bolívar,Norte,2025-10-21 12:25:00,17,17,71,468163397,VIP
+247,Cliente_0247,cliente0247@email.com,14,2020-03-14,Residencial,37,M,Pasto,Nariño,Oriente,2025-12-27 20:39:00,15,15,4,371501799,VIP
+248,Cliente_0248,cliente0248@email.com,2,2024-09-05,Corporativo,54,M,Bogotá,Cundinamarca,Centro,2025-09-26 09:56:00,11,11,96,343350536,Regular
+249,Cliente_0249,cliente0249@email.com,11,2022-01-26,Residencial,21,F,Ibagué,Tolima,Occidente,2025-09-07 10:17:00,10,10,115,341970650,Regular
+250,Cliente_0250,cliente0250@email.com,3,2023-04-07,Residencial,45,F,Cali,Valle,Centro,2025-12-17 13:24:00,8,8,14,197296511,VIP
+251,Cliente_0251,cliente0251@email.com,7,2023-02-05,Residencial,61,F,Pereira,Risaralda,Norte,2025-07-07 18:45:00,11,11,177,285685406,Regular
+252,Cliente_0252,cliente0252@email.com,6,2020-10-30,Residencial,37,M,Bucaramanga,Santander,Norte,2025-12-07 20:16:00,7,7,24,185727574,VIP
+253,Cliente_0253,cliente0253@email.com,12,2022-05-30,PYME,41,F,Montería,Córdoba,Oriente,2025-04-12 11:08:00,7,7,263,263605621,En riesgo
+254,Cliente_0254,cliente0254@email.com,2,2020-09-18,Residencial,67,M,Bogotá,Cundinamarca,Centro,2025-10-23 16:05:00,6,6,69,233067010,VIP
+255,Cliente_0255,cliente0255@email.com,6,2020-03-26,Residencial,66,F,Bucaramanga,Santander,Norte,2025-11-05 11:09:00,7,7,56,243091529,VIP
+256,Cliente_0256,cliente0256@email.com,2,2021-09-23,Residencial,68,F,Bogotá,Cundinamarca,Centro,2025-12-24 09:11:00,11,11,7,301730461,VIP
+257,Cliente_0257,cliente0257@email.com,2,2022-01-16,Residencial,49,M,Bogotá,Cundinamarca,Centro,2025-11-28 21:47:00,5,5,33,100367428,Regular
+258,Cliente_0258,cliente0258@email.com,2,2024-06-18,PYME,58,M,Bogotá,Cundinamarca,Centro,2025-12-12 11:40:00,9,9,19,277438931,VIP
+259,Cliente_0259,cliente0259@email.com,14,2024-10-28,Residencial,53,M,Pasto,Nariño,Oriente,2025-03-26 19:46:00,6,6,280,197709853,En riesgo
+260,Cliente_0260,cliente0260@email.com,15,2020-03-22,PYME,51,M,Neiva,Huila,Oriente,2025-11-07 19:06:00,16,16,54,538258350,VIP
+261,Cliente_0261,cliente0261@email.com,11,2022-01-02,Residencial,53,M,Ibagué,Tolima,Occidente,2025-11-13 17:10:00,3,3,48,101969321,En riesgo
+262,Cliente_0262,cliente0262@email.com,3,2021-03-06,PYME,19,F,Cali,Valle,Centro,2025-12-06 17:10:00,8,8,25,184232048,VIP
+263,Cliente_0263,cliente0263@email.com,15,2023-10-28,Corporativo,32,F,Neiva,Huila,Oriente,2025-02-15 13:01:00,4,4,319,158638624,En riesgo
+264,Cliente_0264,cliente0264@email.com,2,2021-05-26,Residencial,51,M,Bogotá,Cundinamarca,Centro,2025-12-30 14:13:00,11,11,1,372672623,VIP
+265,Cliente_0265,cliente0265@email.com,4,2023-09-27,PYME,53,M,Barranquilla,Atlántico,Centro,2025-10-08 15:05:00,9,9,84,327151221,VIP
+266,Cliente_0266,cliente0266@email.com,9,2020-07-29,Residencial,23,M,Santa Marta,Magdalena,Occidente,2025-11-13 17:10:00,10,10,48,387125304,VIP
+267,Cliente_0267,cliente0267@email.com,6,2021-12-25,Residencial,56,F,Bucaramanga,Santander,Norte,2025-12-16 20:03:00,11,11,15,291007482,VIP
+268,Cliente_0268,cliente0268@email.com,1,2024-05-16,Educativo,59,M,Medellín,Antioquia,Centro,2025-10-09 14:30:00,14,14,83,324402220,VIP
+269,Cliente_0269,cliente0269@email.com,8,2023-02-20,Residencial,68,F,Manizales,Caldas,Norte,2025-12-26 13:49:00,12,12,5,353112811,VIP
+270,Cliente_0270,cliente0270@email.com,15,2024-11-26,Residencial,68,F,Neiva,Huila,Oriente,2025-10-04 08:06:00,8,8,88,323973747,VIP
+271,Cliente_0271,cliente0271@email.com,12,2022-04-12,PYME,29,F,Montería,Córdoba,Oriente,2025-11-15 20:09:00,14,14,46,549822781,VIP
+272,Cliente_0272,cliente0272@email.com,14,2023-06-25,Residencial,20,F,Pasto,Nariño,Oriente,2025-07-24 08:46:00,9,9,160,326057677,Regular
+273,Cliente_0273,cliente0273@email.com,7,2024-03-14,Corporativo,62,M,Pereira,Risaralda,Norte,2025-09-17 13:02:00,16,16,105,485633080,Regular
+274,Cliente_0274,cliente0274@email.com,10,2020-11-12,Residencial,35,F,Cúcuta,Norte de Santander,Occidente,2025-04-24 08:35:00,7,7,251,217389110,En riesgo
+275,Cliente_0275,cliente0275@email.com,3,2021-04-29,Corporativo,57,M,Cali,Valle,Centro,2025-09-10 20:36:00,12,12,112,251765959,Regular
+276,Cliente_0276,cliente0276@email.com,1,2024-11-05,PYME,38,M,Medellín,Antioquia,Centro,2025-11-04 15:07:00,11,11,57,282524707,VIP
+277,Cliente_0277,cliente0277@email.com,5,2020-11-28,PYME,32,F,Cartagena,Bolívar,Norte,2025-09-19 09:01:00,9,9,103,331751052,Regular
+278,Cliente_0278,cliente0278@email.com,13,2024-06-26,Educativo,50,F,Villavicencio,Meta,Oriente,2025-07-20 16:24:00,14,14,164,270544122,Regular
+279,Cliente_0279,cliente0279@email.com,4,2024-07-18,Residencial,52,F,Barranquilla,Atlántico,Centro,2025-10-28 09:32:00,12,12,64,332027085,VIP
+280,Cliente_0280,cliente0280@email.com,10,2020-12-28,Educativo,43,M,Cúcuta,Norte de Santander,Occidente,2025-07-04 22:05:00,9,9,180,167609247,Regular
+281,Cliente_0281,cliente0281@email.com,8,2022-04-24,Residencial,25,M,Manizales,Caldas,Norte,2025-11-23 19:49:00,8,8,38,183394937,VIP
+282,Cliente_0282,cliente0282@email.com,1,2020-02-20,Residencial,53,F,Medellín,Antioquia,Centro,2025-12-11 14:32:00,10,10,20,359651241,VIP
+283,Cliente_0283,cliente0283@email.com,10,2021-01-02,Residencial,65,M,Cúcuta,Norte de Santander,Occidente,2025-12-31 08:11:00,17,17,0,397970994,VIP
+284,Cliente_0284,cliente0284@email.com,1,2024-02-17,Residencial,47,F,Medellín,Antioquia,Centro,2025-10-20 09:43:00,12,12,72,375066702,VIP
+285,Cliente_0285,cliente0285@email.com,12,2021-11-11,Residencial,40,F,Montería,Córdoba,Oriente,2025-10-02 11:07:00,9,9,90,221934392,VIP
+286,Cliente_0286,cliente0286@email.com,4,2024-05-21,Corporativo,59,F,Barranquilla,Atlántico,Centro,2024-09-08 12:31:00,6,6,479,263263286,Perdido
+287,Cliente_0287,cliente0287@email.com,8,2022-04-23,Corporativo,61,M,Manizales,Caldas,Norte,2025-08-16 10:05:00,11,11,137,476973650,Regular
+288,Cliente_0288,cliente0288@email.com,5,2024-06-30,Educativo,31,M,Cartagena,Bolívar,Norte,2025-12-11 12:44:00,12,12,20,358274312,VIP
+289,Cliente_0289,cliente0289@email.com,2,2023-10-03,Residencial,31,M,Bogotá,Cundinamarca,Centro,2025-11-23 10:35:00,6,6,38,215601271,VIP
+290,Cliente_0290,cliente0290@email.com,6,2024-11-04,PYME,19,F,Bucaramanga,Santander,Norte,2025-11-24 21:49:00,11,11,37,285531290,VIP
+291,Cliente_0291,cliente0291@email.com,5,2024-02-14,Residencial,54,M,Cartagena,Bolívar,Norte,2025-08-08 15:29:00,8,8,145,220005221,Regular
+292,Cliente_0292,cliente0292@email.com,2,2024-07-18,Residencial,22,F,Bogotá,Cundinamarca,Centro,2025-11-23 14:22:00,10,10,38,247310581,VIP
+293,Cliente_0293,cliente0293@email.com,13,2021-05-23,Residencial,55,M,Villavicencio,Meta,Oriente,2025-10-26 09:28:00,6,6,66,220272790,VIP
+294,Cliente_0294,cliente0294@email.com,14,2021-06-30,Residencial,62,Otro,Pasto,Nariño,Oriente,2025-10-03 21:59:00,12,12,89,348304453,VIP
+295,Cliente_0295,cliente0295@email.com,11,2020-11-22,PYME,58,M,Ibagué,Tolima,Occidente,2025-12-07 21:48:00,10,10,24,321287469,VIP
+296,Cliente_0296,cliente0296@email.com,11,2024-05-31,PYME,64,M,Ibagué,Tolima,Occidente,2025-09-01 19:52:00,12,12,121,234817901,Regular
+297,Cliente_0297,cliente0297@email.com,11,2023-12-07,Residencial,31,M,Ibagué,Tolima,Occidente,2024-02-11 09:37:00,3,3,689,72630950,Perdido
+298,Cliente_0298,cliente0298@email.com,3,2020-08-09,Residencial,56,F,Cali,Valle,Centro,2025-10-03 18:06:00,9,9,89,183930207,VIP
+299,Cliente_0299,cliente0299@email.com,15,2022-02-22,Residencial,42,F,Neiva,Huila,Oriente,2025-12-09 13:27:00,8,8,22,194676472,VIP
+300,Cliente_0300,cliente0300@email.com,9,2024-11-21,Residencial,37,F,Santa Marta,Magdalena,Occidente,2025-09-14 09:36:00,3,3,108,89663678,En riesgo
+301,Cliente_0301,cliente0301@email.com,7,2020-03-20,Educativo,19,M,Pereira,Risaralda,Norte,2025-07-26 08:18:00,8,8,158,271060127,Regular
+302,Cliente_0302,cliente0302@email.com,7,2024-10-24,Residencial,56,M,Pereira,Risaralda,Norte,2025-12-11 18:56:00,10,10,20,260476987,VIP
+303,Cliente_0303,cliente0303@email.com,15,2022-08-21,Residencial,23,F,Neiva,Huila,Oriente,2025-05-15 20:00:00,11,11,230,372619652,En riesgo
+304,Cliente_0304,cliente0304@email.com,11,2021-03-31,Residencial,34,M,Ibagué,Tolima,Occidente,2025-09-14 08:48:00,8,8,108,308802213,Regular
+305,Cliente_0305,cliente0305@email.com,6,2021-02-12,Corporativo,42,M,Bucaramanga,Santander,Norte,2025-12-27 13:34:00,11,11,4,341983348,VIP
+306,Cliente_0306,cliente0306@email.com,8,2024-07-30,Educativo,45,Otro,Manizales,Caldas,Norte,2025-10-11 10:59:00,7,7,81,264530228,VIP
+307,Cliente_0307,cliente0307@email.com,4,2022-07-31,PYME,19,Otro,Barranquilla,Atlántico,Centro,2025-11-06 19:56:00,8,8,55,334563225,VIP
+308,Cliente_0308,cliente0308@email.com,8,2021-12-17,PYME,52,F,Manizales,Caldas,Norte,2025-09-18 17:14:00,11,11,104,352562326,Regular
+309,Cliente_0309,cliente0309@email.com,4,2021-09-17,Residencial,54,F,Barranquilla,Atlántico,Centro,2025-11-11 15:51:00,8,8,50,391909291,VIP
+310,Cliente_0310,cliente0310@email.com,8,2024-08-07,Residencial,22,M,Manizales,Caldas,Norte,2025-09-30 14:47:00,13,13,92,266262201,Regular
+311,Cliente_0311,cliente0311@email.com,9,2024-06-16,Educativo,18,M,Santa Marta,Magdalena,Occidente,2025-10-08 15:48:00,7,7,84,175969689,VIP
+312,Cliente_0312,cliente0312@email.com,3,2024-11-19,PYME,57,F,Cali,Valle,Centro,2025-08-30 17:56:00,6,6,123,196405020,Regular
+313,Cliente_0313,cliente0313@email.com,3,2021-04-11,PYME,29,F,Cali,Valle,Centro,2025-07-28 18:29:00,19,19,156,622128566,Regular
+314,Cliente_0314,cliente0314@email.com,11,2021-04-01,PYME,53,M,Ibagué,Tolima,Occidente,2025-09-15 10:23:00,11,11,107,262706335,Regular
+315,Cliente_0315,cliente0315@email.com,13,2020-02-18,PYME,62,M,Villavicencio,Meta,Oriente,2025-09-09 15:40:00,11,11,113,356090996,Regular
+316,Cliente_0316,cliente0316@email.com,2,2023-09-13,PYME,40,M,Bogotá,Cundinamarca,Centro,2025-12-26 11:28:00,8,8,5,188127703,VIP
+317,Cliente_0317,cliente0317@email.com,13,2021-01-30,Educativo,64,F,Villavicencio,Meta,Oriente,2025-12-16 21:02:00,8,8,15,311611442,VIP
+318,Cliente_0318,cliente0318@email.com,10,2022-03-27,Corporativo,48,F,Cúcuta,Norte de Santander,Occidente,2025-11-17 10:53:00,12,12,44,360447043,VIP
+319,Cliente_0319,cliente0319@email.com,3,2021-11-03,PYME,28,F,Cali,Valle,Centro,2025-09-23 12:23:00,7,7,99,262639243,Regular
+320,Cliente_0320,cliente0320@email.com,3,2021-07-24,PYME,27,M,Cali,Valle,Centro,2025-07-08 16:35:00,9,9,176,283912081,Regular
+321,Cliente_0321,cliente0321@email.com,5,2024-11-05,Residencial,20,Otro,Cartagena,Bolívar,Norte,2025-10-04 14:45:00,15,15,88,557338155,VIP
+322,Cliente_0322,cliente0322@email.com,5,2020-05-22,PYME,31,F,Cartagena,Bolívar,Norte,2025-12-25 20:17:00,10,10,6,294466792,VIP
+323,Cliente_0323,cliente0323@email.com,2,2024-05-02,Residencial,33,M,Bogotá,Cundinamarca,Centro,2025-11-17 21:33:00,9,9,44,270233121,VIP
+324,Cliente_0324,cliente0324@email.com,12,2021-07-25,PYME,27,M,Montería,Córdoba,Oriente,2025-09-23 16:42:00,11,11,99,286598879,Regular
+325,Cliente_0325,cliente0325@email.com,10,2021-12-20,Educativo,46,M,Cúcuta,Norte de Santander,Occidente,2025-11-09 14:35:00,13,13,52,341009592,VIP
+326,Cliente_0326,cliente0326@email.com,13,2023-08-06,PYME,27,M,Villavicencio,Meta,Oriente,2025-11-17 08:43:00,7,7,44,209133645,VIP
+327,Cliente_0327,cliente0327@email.com,6,2022-11-09,Residencial,29,F,Bucaramanga,Santander,Norte,2025-12-06 09:01:00,10,10,25,333116569,VIP
+328,Cliente_0328,cliente0328@email.com,5,2022-03-29,Residencial,47,M,Cartagena,Bolívar,Norte,2025-08-31 12:02:00,10,10,122,366918628,Regular
+329,Cliente_0329,cliente0329@email.com,6,2023-10-23,Residencial,58,F,Bucaramanga,Santander,Norte,2024-05-08 11:13:00,6,6,602,202771503,Perdido
+330,Cliente_0330,cliente0330@email.com,1,2024-09-23,PYME,18,M,Medellín,Antioquia,Centro,2025-12-30 21:10:00,5,5,1,170569115,Regular
+331,Cliente_0331,cliente0331@email.com,5,2023-01-03,Residencial,22,M,Cartagena,Bolívar,Norte,2025-11-24 20:36:00,13,13,37,481722075,VIP
+332,Cliente_0332,cliente0332@email.com,9,2021-11-09,Residencial,37,M,Santa Marta,Magdalena,Occidente,2025-07-30 22:04:00,11,11,154,243625653,Regular
+333,Cliente_0333,cliente0333@email.com,12,2020-02-26,Residencial,25,M,Montería,Córdoba,Oriente,2025-05-01 21:29:00,11,11,244,312818441,En riesgo
+334,Cliente_0334,cliente0334@email.com,10,2020-08-24,PYME,60,F,Cúcuta,Norte de Santander,Occidente,2025-12-11 16:10:00,10,10,20,285906169,VIP
+335,Cliente_0335,cliente0335@email.com,14,2024-12-01,PYME,29,F,Pasto,Nariño,Oriente,2025-12-30 18:46:00,8,8,1,209778257,VIP
+336,Cliente_0336,cliente0336@email.com,2,2021-06-18,Residencial,18,F,Bogotá,Cundinamarca,Centro,2025-12-24 16:38:00,9,9,7,192460543,VIP
+337,Cliente_0337,cliente0337@email.com,1,2020-12-31,Residencial,37,F,Medellín,Antioquia,Centro,2025-11-02 08:29:00,17,17,59,469885910,VIP
+338,Cliente_0338,cliente0338@email.com,14,2023-04-04,Residencial,45,M,Pasto,Nariño,Oriente,2025-11-17 13:29:00,15,15,44,518607288,VIP
+339,Cliente_0339,cliente0339@email.com,10,2021-06-27,PYME,60,M,Cúcuta,Norte de Santander,Occidente,2025-12-03 12:45:00,11,11,28,201982552,VIP
+340,Cliente_0340,cliente0340@email.com,13,2020-03-19,PYME,54,M,Villavicencio,Meta,Oriente,2025-11-08 08:02:00,15,15,53,469615718,VIP
+341,Cliente_0341,cliente0341@email.com,11,2020-08-10,Residencial,64,F,Ibagué,Tolima,Occidente,2025-08-20 19:34:00,11,11,133,348685231,Regular
+342,Cliente_0342,cliente0342@email.com,9,2023-05-06,PYME,54,M,Santa Marta,Magdalena,Occidente,2025-09-28 09:57:00,6,6,94,170688897,Regular
+343,Cliente_0343,cliente0343@email.com,10,2022-06-08,Residencial,29,M,Cúcuta,Norte de Santander,Occidente,2025-12-21 21:35:00,19,19,10,447162694,VIP
+344,Cliente_0344,cliente0344@email.com,9,2021-12-08,Corporativo,54,F,Santa Marta,Magdalena,Occidente,2025-08-19 17:01:00,10,10,134,331347193,Regular
+345,Cliente_0345,cliente0345@email.com,15,2024-02-01,Residencial,66,M,Neiva,Huila,Oriente,2025-09-26 14:41:00,10,10,96,282596647,Regular
+346,Cliente_0346,cliente0346@email.com,9,2024-05-29,Residencial,66,M,Santa Marta,Magdalena,Occidente,2025-10-17 15:20:00,10,10,75,212396180,VIP
+347,Cliente_0347,cliente0347@email.com,6,2021-10-04,Residencial,61,M,Bucaramanga,Santander,Norte,2025-12-17 15:12:00,8,8,14,208111004,VIP
+348,Cliente_0348,cliente0348@email.com,15,2022-06-12,PYME,45,F,Neiva,Huila,Oriente,2025-10-15 09:51:00,9,9,77,259862832,VIP
+349,Cliente_0349,cliente0349@email.com,8,2023-05-26,Corporativo,64,F,Manizales,Caldas,Norte,2025-09-06 20:26:00,8,8,116,305970840,Regular
+350,Cliente_0350,cliente0350@email.com,14,2022-11-13,Residencial,32,F,Pasto,Nariño,Oriente,2025-10-01 18:35:00,6,6,91,191041284,Regular
+351,Cliente_0351,cliente0351@email.com,11,2020-08-24,PYME,23,M,Ibagué,Tolima,Occidente,2024-09-26 17:28:00,7,7,461,173118695,Perdido
+352,Cliente_0352,cliente0352@email.com,15,2022-02-27,PYME,61,Otro,Neiva,Huila,Oriente,2025-09-27 10:58:00,11,11,95,299872666,Regular
+353,Cliente_0353,cliente0353@email.com,13,2023-03-26,Residencial,37,F,Villavicencio,Meta,Oriente,2024-11-30 15:50:00,5,5,396,118487181,Perdido
+354,Cliente_0354,cliente0354@email.com,1,2021-01-24,Residencial,67,M,Medellín,Antioquia,Centro,2025-09-16 22:32:00,10,10,106,352815671,Regular
+355,Cliente_0355,cliente0355@email.com,10,2021-06-05,Corporativo,31,F,Cúcuta,Norte de Santander,Occidente,2025-12-24 18:22:00,15,15,7,486906617,VIP
+356,Cliente_0356,cliente0356@email.com,4,2020-03-31,Residencial,19,M,Barranquilla,Atlántico,Centro,2025-09-19 13:58:00,8,8,103,234945891,Regular
+357,Cliente_0357,cliente0357@email.com,1,2023-12-22,Residencial,26,F,Medellín,Antioquia,Centro,2025-11-21 13:05:00,11,11,40,211687672,VIP
+358,Cliente_0358,cliente0358@email.com,8,2022-06-12,Educativo,54,F,Manizales,Caldas,Norte,2025-12-09 08:20:00,10,10,22,380708299,VIP
+359,Cliente_0359,cliente0359@email.com,1,2020-01-04,Residencial,37,M,Medellín,Antioquia,Centro,2025-11-28 11:23:00,9,9,33,309535817,VIP
+360,Cliente_0360,cliente0360@email.com,3,2022-11-30,Residencial,43,Otro,Cali,Valle,Centro,2025-10-29 15:48:00,11,11,63,260895003,VIP
+361,Cliente_0361,cliente0361@email.com,13,2024-07-09,Residencial,46,F,Villavicencio,Meta,Oriente,2025-07-31 21:44:00,10,10,153,241916902,Regular
+362,Cliente_0362,cliente0362@email.com,4,2023-01-07,Educativo,18,F,Barranquilla,Atlántico,Centro,2025-07-15 09:39:00,5,5,169,156190123,Regular
+363,Cliente_0363,cliente0363@email.com,15,2023-11-07,Residencial,52,M,Neiva,Huila,Oriente,2025-12-20 12:21:00,10,10,11,342725553,VIP
+364,Cliente_0364,cliente0364@email.com,15,2024-01-13,Residencial,23,M,Neiva,Huila,Oriente,2025-10-30 14:07:00,14,14,62,353632569,VIP
+365,Cliente_0365,cliente0365@email.com,15,2024-02-28,Residencial,54,M,Neiva,Huila,Oriente,2025-06-07 18:50:00,10,10,207,221067930,En riesgo
+366,Cliente_0366,cliente0366@email.com,8,2024-02-18,Residencial,22,F,Manizales,Caldas,Norte,2025-09-17 08:03:00,10,10,105,289852971,Regular
+367,Cliente_0367,cliente0367@email.com,6,2023-10-05,Residencial,50,M,Bucaramanga,Santander,Norte,2025-08-14 10:57:00,12,12,139,316362886,Regular
+368,Cliente_0368,cliente0368@email.com,14,2021-02-07,Residencial,66,F,Pasto,Nariño,Oriente,2025-06-26 21:14:00,9,9,188,277135317,En riesgo
+369,Cliente_0369,cliente0369@email.com,10,2022-01-15,PYME,68,F,Cúcuta,Norte de Santander,Occidente,2025-12-09 11:15:00,18,18,22,425583344,VIP
+370,Cliente_0370,cliente0370@email.com,12,2022-06-02,Residencial,31,M,Montería,Córdoba,Oriente,2025-10-12 17:39:00,7,7,80,161961164,VIP
+371,Cliente_0371,cliente0371@email.com,7,2020-05-23,Residencial,29,F,Pereira,Risaralda,Norte,2025-03-29 15:32:00,11,11,277,459897670,En riesgo
+372,Cliente_0372,cliente0372@email.com,14,2023-09-22,Residencial,59,M,Pasto,Nariño,Oriente,2025-05-12 11:13:00,11,11,233,244999008,En riesgo
+373,Cliente_0373,cliente0373@email.com,8,2021-11-07,Residencial,37,Otro,Manizales,Caldas,Norte,2025-10-12 20:23:00,5,5,80,102689835,Regular
+374,Cliente_0374,cliente0374@email.com,2,2023-06-30,Residencial,67,F,Bogotá,Cundinamarca,Centro,2025-06-12 12:53:00,8,8,202,215300339,En riesgo
+375,Cliente_0375,cliente0375@email.com,13,2021-10-04,PYME,41,M,Villavicencio,Meta,Oriente,2025-11-30 19:15:00,17,17,31,467249350,VIP
+376,Cliente_0376,cliente0376@email.com,10,2023-09-20,Residencial,60,M,Cúcuta,Norte de Santander,Occidente,2025-08-17 09:09:00,12,12,136,396201530,Regular
+377,Cliente_0377,cliente0377@email.com,14,2024-10-02,Residencial,51,M,Pasto,Nariño,Oriente,2025-06-10 09:04:00,11,11,204,281930347,En riesgo
+378,Cliente_0378,cliente0378@email.com,11,2020-09-12,Residencial,42,F,Ibagué,Tolima,Occidente,2025-10-29 10:31:00,14,14,63,477143052,VIP
+379,Cliente_0379,cliente0379@email.com,8,2024-01-14,Corporativo,67,F,Manizales,Caldas,Norte,2025-10-06 22:45:00,13,13,86,366766807,VIP
+380,Cliente_0380,cliente0380@email.com,3,2021-09-07,PYME,46,F,Cali,Valle,Centro,2024-12-14 16:45:00,9,9,382,242662784,Perdido
+381,Cliente_0381,cliente0381@email.com,7,2022-11-04,PYME,56,M,Pereira,Risaralda,Norte,2025-11-08 13:31:00,13,13,53,432396140,VIP
+382,Cliente_0382,cliente0382@email.com,3,2021-09-25,Residencial,48,M,Cali,Valle,Centro,2025-09-13 10:40:00,9,9,109,113315137,Regular
+383,Cliente_0383,cliente0383@email.com,15,2023-09-27,Corporativo,64,M,Neiva,Huila,Oriente,2025-05-30 12:57:00,12,12,215,450148918,En riesgo
+384,Cliente_0384,cliente0384@email.com,7,2022-04-16,Residencial,60,F,Pereira,Risaralda,Norte,2025-07-03 16:30:00,9,9,181,258993529,En riesgo
+385,Cliente_0385,cliente0385@email.com,14,2021-10-30,Residencial,67,F,Pasto,Nariño,Oriente,2025-07-02 18:13:00,9,9,182,276638072,En riesgo
+386,Cliente_0386,cliente0386@email.com,11,2022-04-04,Residencial,40,M,Ibagué,Tolima,Occidente,2025-11-28 21:37:00,8,8,33,227240771,VIP
+387,Cliente_0387,cliente0387@email.com,15,2023-11-28,Residencial,61,M,Neiva,Huila,Oriente,2025-12-29 08:58:00,16,16,2,389855280,VIP
+388,Cliente_0388,cliente0388@email.com,12,2021-08-28,Educativo,55,F,Montería,Córdoba,Oriente,2025-10-31 09:46:00,13,13,61,437088813,VIP
+389,Cliente_0389,cliente0389@email.com,13,2023-02-09,PYME,37,F,Villavicencio,Meta,Oriente,2025-11-28 16:25:00,7,7,33,228212597,VIP
+390,Cliente_0390,cliente0390@email.com,2,2020-09-17,Residencial,40,F,Bogotá,Cundinamarca,Centro,2025-10-14 16:14:00,16,16,78,489736093,VIP
+391,Cliente_0391,cliente0391@email.com,10,2021-01-27,PYME,62,F,Cúcuta,Norte de Santander,Occidente,2024-10-13 22:51:00,8,8,444,265516039,Perdido
+392,Cliente_0392,cliente0392@email.com,6,2022-05-11,Educativo,69,M,Bucaramanga,Santander,Norte,2025-05-14 08:07:00,9,9,231,119752029,En riesgo
+393,Cliente_0393,cliente0393@email.com,3,2023-09-23,Corporativo,33,M,Cali,Valle,Centro,2025-12-04 18:53:00,9,9,27,250600947,VIP
+394,Cliente_0394,cliente0394@email.com,3,2022-02-15,PYME,67,F,Cali,Valle,Centro,2025-09-16 12:16:00,6,6,106,199888951,Regular
+395,Cliente_0395,cliente0395@email.com,15,2023-10-19,Corporativo,59,F,Neiva,Huila,Oriente,2025-10-04 09:30:00,9,9,88,247779761,VIP
+396,Cliente_0396,cliente0396@email.com,9,2024-03-12,Educativo,25,M,Santa Marta,Magdalena,Occidente,2025-08-01 09:08:00,5,5,152,173908736,Regular
+397,Cliente_0397,cliente0397@email.com,7,2020-12-22,PYME,67,F,Pereira,Risaralda,Norte,2025-12-21 11:26:00,11,11,10,334848421,VIP
+398,Cliente_0398,cliente0398@email.com,5,2023-06-14,Residencial,38,F,Cartagena,Bolívar,Norte,2025-10-25 13:24:00,7,7,67,179939396,VIP
+399,Cliente_0399,cliente0399@email.com,12,2023-03-11,Residencial,18,F,Montería,Córdoba,Oriente,2025-05-10 21:31:00,11,11,235,269024196,En riesgo
+400,Cliente_0400,cliente0400@email.com,10,2021-09-08,Corporativo,25,F,Cúcuta,Norte de Santander,Occidente,2025-11-27 10:19:00,10,10,34,161256926,VIP
+401,Cliente_0401,cliente0401@email.com,7,2022-04-11,Residencial,46,M,Pereira,Risaralda,Norte,2025-11-12 12:25:00,16,16,49,485826840,VIP
+402,Cliente_0402,cliente0402@email.com,9,2023-01-27,Corporativo,49,F,Santa Marta,Magdalena,Occidente,2025-09-12 12:06:00,7,7,110,250833930,Regular
+403,Cliente_0403,cliente0403@email.com,1,2024-09-03,Residencial,55,F,Medellín,Antioquia,Centro,2025-10-18 21:02:00,12,12,74,259132032,VIP
+404,Cliente_0404,cliente0404@email.com,7,2020-01-01,Residencial,22,F,Pereira,Risaralda,Norte,2025-10-26 16:26:00,9,9,66,275916567,VIP
+405,Cliente_0405,cliente0405@email.com,6,2021-09-14,Residencial,64,F,Bucaramanga,Santander,Norte,2025-10-02 20:01:00,12,12,90,349636944,VIP
+406,Cliente_0406,cliente0406@email.com,10,2021-08-10,Residencial,39,F,Cúcuta,Norte de Santander,Occidente,2025-07-21 17:28:00,8,8,163,181858428,Regular
+407,Cliente_0407,cliente0407@email.com,14,2021-03-06,Educativo,64,M,Pasto,Nariño,Oriente,2025-10-28 09:03:00,12,12,64,503310909,VIP
+408,Cliente_0408,cliente0408@email.com,12,2022-05-30,Corporativo,51,F,Montería,Córdoba,Oriente,2025-12-26 19:07:00,14,14,5,422483954,VIP
+409,Cliente_0409,cliente0409@email.com,9,2024-05-28,Corporativo,18,F,Santa Marta,Magdalena,Occidente,2025-08-09 13:42:00,14,14,144,469034748,Regular
+410,Cliente_0410,cliente0410@email.com,1,2023-04-02,PYME,43,F,Medellín,Antioquia,Centro,2025-08-28 08:53:00,5,5,125,117258344,Regular
+411,Cliente_0411,cliente0411@email.com,13,2023-05-27,Residencial,60,F,Villavicencio,Meta,Oriente,2025-12-20 19:17:00,11,11,11,357219058,VIP
+412,Cliente_0412,cliente0412@email.com,4,2023-09-02,Residencial,27,F,Barranquilla,Atlántico,Centro,2025-08-01 22:55:00,14,14,151,357631077,Regular
+413,Cliente_0413,cliente0413@email.com,9,2021-10-21,PYME,47,M,Santa Marta,Magdalena,Occidente,2025-09-10 11:06:00,15,15,112,583804256,Regular
+414,Cliente_0414,cliente0414@email.com,4,2022-08-10,Residencial,67,F,Barranquilla,Atlántico,Centro,2025-12-23 11:40:00,12,12,8,274349097,VIP
+415,Cliente_0415,cliente0415@email.com,10,2022-06-23,Residencial,35,M,Cúcuta,Norte de Santander,Occidente,2025-11-04 21:53:00,6,6,57,99486115,VIP
+416,Cliente_0416,cliente0416@email.com,3,2022-06-24,Residencial,34,M,Cali,Valle,Centro,2025-12-23 13:27:00,11,11,8,301813129,VIP
+417,Cliente_0417,cliente0417@email.com,9,2023-10-15,Residencial,43,F,Santa Marta,Magdalena,Occidente,2025-11-01 15:23:00,12,12,60,362078671,VIP
+418,Cliente_0418,cliente0418@email.com,13,2021-03-13,Educativo,25,F,Villavicencio,Meta,Oriente,2025-09-28 13:30:00,9,9,94,242389999,Regular
+419,Cliente_0419,cliente0419@email.com,2,2022-11-12,Corporativo,64,M,Bogotá,Cundinamarca,Centro,2025-05-20 10:01:00,9,9,225,273376882,En riesgo
+420,Cliente_0420,cliente0420@email.com,15,2022-08-27,Residencial,57,M,Neiva,Huila,Oriente,2025-11-15 10:10:00,12,12,46,344253734,VIP
+421,Cliente_0421,cliente0421@email.com,4,2024-06-13,PYME,66,F,Barranquilla,Atlántico,Centro,2025-11-28 13:14:00,12,12,33,277119295,VIP
+422,Cliente_0422,cliente0422@email.com,15,2024-06-18,PYME,29,M,Neiva,Huila,Oriente,2025-06-15 15:33:00,10,10,199,258353485,En riesgo
+423,Cliente_0423,cliente0423@email.com,6,2024-02-16,Residencial,44,M,Bucaramanga,Santander,Norte,2025-12-28 11:18:00,10,10,3,301472649,VIP
+424,Cliente_0424,cliente0424@email.com,2,2020-12-13,Corporativo,25,M,Bogotá,Cundinamarca,Centro,2025-12-23 15:27:00,16,16,8,545465143,VIP
+425,Cliente_0425,cliente0425@email.com,15,2023-09-11,Corporativo,42,M,Neiva,Huila,Oriente,2025-12-27 15:25:00,15,15,4,477230340,VIP
+426,Cliente_0426,cliente0426@email.com,8,2020-06-22,Residencial,63,M,Manizales,Caldas,Norte,2025-11-13 09:46:00,14,14,48,324841722,VIP
+427,Cliente_0427,cliente0427@email.com,8,2021-08-04,Residencial,21,M,Manizales,Caldas,Norte,2025-12-10 11:42:00,12,12,21,388307402,VIP
+428,Cliente_0428,cliente0428@email.com,1,2022-11-21,Residencial,50,M,Medellín,Antioquia,Centro,2025-12-11 12:19:00,14,14,20,520874463,VIP
+429,Cliente_0429,cliente0429@email.com,12,2023-09-21,Residencial,18,F,Montería,Córdoba,Oriente,2025-12-26 11:24:00,14,14,5,406696118,VIP
+430,Cliente_0430,cliente0430@email.com,3,2023-07-20,Residencial,36,F,Cali,Valle,Centro,2025-09-18 20:27:00,10,10,104,294600018,Regular
+431,Cliente_0431,cliente0431@email.com,10,2023-06-22,Corporativo,48,F,Cúcuta,Norte de Santander,Occidente,2025-11-12 13:03:00,12,12,49,338822337,VIP
+432,Cliente_0432,cliente0432@email.com,9,2021-11-17,Residencial,33,M,Santa Marta,Magdalena,Occidente,2025-12-14 08:42:00,12,12,17,432734037,VIP
+433,Cliente_0433,cliente0433@email.com,5,2020-07-10,Residencial,31,M,Cartagena,Bolívar,Norte,2025-11-07 15:31:00,14,14,54,334379115,VIP
+434,Cliente_0434,cliente0434@email.com,6,2024-08-03,Educativo,65,F,Bucaramanga,Santander,Norte,2025-10-14 22:15:00,14,14,78,339805474,VIP
+435,Cliente_0435,cliente0435@email.com,4,2024-03-18,PYME,22,M,Barranquilla,Atlántico,Centro,2025-11-15 12:53:00,15,15,46,483713590,VIP
+436,Cliente_0436,cliente0436@email.com,10,2021-04-26,Residencial,58,F,Cúcuta,Norte de Santander,Occidente,2025-06-26 22:22:00,6,6,188,285630866,En riesgo
+437,Cliente_0437,cliente0437@email.com,2,2023-10-09,Residencial,43,F,Bogotá,Cundinamarca,Centro,2025-09-16 09:15:00,9,9,106,318451266,Regular
+438,Cliente_0438,cliente0438@email.com,11,2021-09-27,Residencial,45,F,Ibagué,Tolima,Occidente,2025-09-20 15:31:00,14,14,102,434495737,Regular
+439,Cliente_0439,cliente0439@email.com,8,2021-04-05,PYME,19,M,Manizales,Caldas,Norte,2025-09-01 16:09:00,15,15,121,447616029,Regular
+440,Cliente_0440,cliente0440@email.com,11,2024-07-09,Residencial,67,M,Ibagué,Tolima,Occidente,2025-11-26 15:53:00,10,10,35,334281237,VIP
+441,Cliente_0441,cliente0441@email.com,13,2021-02-11,Residencial,23,F,Villavicencio,Meta,Oriente,2025-12-14 09:41:00,13,13,17,430876019,VIP
+442,Cliente_0442,cliente0442@email.com,6,2020-10-28,Educativo,26,M,Bucaramanga,Santander,Norte,2025-05-30 11:35:00,8,8,215,179200820,En riesgo
+443,Cliente_0443,cliente0443@email.com,5,2020-02-20,Residencial,50,F,Cartagena,Bolívar,Norte,2025-08-25 09:43:00,13,13,128,379354833,Regular
+444,Cliente_0444,cliente0444@email.com,9,2020-04-04,Corporativo,58,F,Santa Marta,Magdalena,Occidente,2025-11-12 19:45:00,10,10,49,324083200,VIP
+445,Cliente_0445,cliente0445@email.com,1,2021-05-16,Educativo,42,Otro,Medellín,Antioquia,Centro,2025-10-08 10:35:00,9,9,84,343586835,VIP
+446,Cliente_0446,cliente0446@email.com,5,2022-08-31,Residencial,65,M,Cartagena,Bolívar,Norte,2025-12-02 21:39:00,8,8,29,333126895,VIP
+447,Cliente_0447,cliente0447@email.com,6,2023-06-05,Corporativo,30,F,Bucaramanga,Santander,Norte,2025-03-22 09:55:00,9,9,284,219937573,En riesgo
+448,Cliente_0448,cliente0448@email.com,5,2024-10-06,Residencial,26,F,Cartagena,Bolívar,Norte,2025-09-29 19:26:00,9,9,93,214864033,Regular
+449,Cliente_0449,cliente0449@email.com,6,2024-04-22,Corporativo,30,M,Bucaramanga,Santander,Norte,2024-11-24 22:48:00,5,5,402,120357778,Perdido
+450,Cliente_0450,cliente0450@email.com,6,2020-05-29,PYME,48,M,Bucaramanga,Santander,Norte,2025-12-26 21:32:00,16,16,5,534625023,VIP
+451,Cliente_0451,cliente0451@email.com,7,2022-07-21,PYME,58,F,Pereira,Risaralda,Norte,2025-12-07 15:43:00,17,17,24,475646728,VIP
+452,Cliente_0452,cliente0452@email.com,4,2022-04-28,Residencial,28,M,Barranquilla,Atlántico,Centro,2025-11-02 09:35:00,11,11,59,306372635,VIP
+453,Cliente_0453,cliente0453@email.com,14,2023-07-13,Corporativo,21,M,Pasto,Nariño,Oriente,2025-12-28 22:33:00,11,11,3,317664350,VIP
+454,Cliente_0454,cliente0454@email.com,11,2023-03-24,PYME,51,M,Ibagué,Tolima,Occidente,2025-12-10 17:18:00,7,7,21,176769693,VIP
+455,Cliente_0455,cliente0455@email.com,14,2021-02-02,Residencial,55,F,Pasto,Nariño,Oriente,2025-07-08 18:59:00,6,6,176,262019478,Regular
+456,Cliente_0456,cliente0456@email.com,14,2024-01-11,Corporativo,63,F,Pasto,Nariño,Oriente,2025-12-03 13:48:00,12,12,28,284639930,VIP
+457,Cliente_0457,cliente0457@email.com,14,2023-11-27,Residencial,21,F,Pasto,Nariño,Oriente,2025-10-16 21:31:00,6,6,76,186477008,VIP
+458,Cliente_0458,cliente0458@email.com,15,2022-02-25,Residencial,55,M,Neiva,Huila,Oriente,2025-02-22 08:19:00,8,8,312,286247925,En riesgo
+459,Cliente_0459,cliente0459@email.com,8,2022-10-09,Residencial,36,M,Manizales,Caldas,Norte,2025-09-09 12:44:00,9,9,113,293777961,Regular
+460,Cliente_0460,cliente0460@email.com,7,2022-03-29,Residencial,23,F,Pereira,Risaralda,Norte,2025-11-13 16:19:00,7,7,48,234241630,VIP
+461,Cliente_0461,cliente0461@email.com,9,2021-05-14,Residencial,51,F,Santa Marta,Magdalena,Occidente,2025-03-11 10:04:00,10,10,295,252781491,En riesgo
+462,Cliente_0462,cliente0462@email.com,7,2020-10-29,Educativo,35,M,Pereira,Risaralda,Norte,2025-10-15 16:34:00,13,13,77,528218761,VIP
+463,Cliente_0463,cliente0463@email.com,3,2023-09-05,Residencial,30,F,Cali,Valle,Centro,2024-11-19 14:28:00,7,7,407,283630061,Perdido
+464,Cliente_0464,cliente0464@email.com,3,2023-11-09,PYME,58,Otro,Cali,Valle,Centro,2025-08-18 09:58:00,7,7,135,260758804,Regular
+465,Cliente_0465,cliente0465@email.com,15,2020-01-12,Residencial,40,F,Neiva,Huila,Oriente,2025-12-14 12:52:00,11,11,17,356477339,VIP
+466,Cliente_0466,cliente0466@email.com,8,2024-03-17,Corporativo,36,F,Manizales,Caldas,Norte,2025-10-03 09:12:00,4,4,89,133453520,Regular
+467,Cliente_0467,cliente0467@email.com,5,2024-10-28,Educativo,62,F,Cartagena,Bolívar,Norte,2025-12-07 22:49:00,11,11,24,308959805,VIP
+468,Cliente_0468,cliente0468@email.com,4,2024-04-26,Residencial,28,M,Barranquilla,Atlántico,Centro,2025-12-09 20:05:00,10,10,22,273824718,VIP
+469,Cliente_0469,cliente0469@email.com,8,2020-08-06,Corporativo,18,F,Manizales,Caldas,Norte,2025-12-22 11:24:00,8,8,9,158838497,VIP
+470,Cliente_0470,cliente0470@email.com,15,2024-05-13,Residencial,41,Otro,Neiva,Huila,Oriente,2025-11-19 21:00:00,5,5,42,127393011,Regular
+471,Cliente_0471,cliente0471@email.com,6,2022-05-20,Corporativo,24,M,Bucaramanga,Santander,Norte,2025-10-30 18:29:00,15,15,62,468402508,VIP
+472,Cliente_0472,cliente0472@email.com,2,2021-03-24,Residencial,42,F,Bogotá,Cundinamarca,Centro,2025-12-22 13:25:00,7,7,9,250260404,VIP
+473,Cliente_0473,cliente0473@email.com,4,2020-12-26,Corporativo,38,F,Barranquilla,Atlántico,Centro,2025-11-16 18:49:00,5,5,45,140333396,Regular
+474,Cliente_0474,cliente0474@email.com,12,2024-07-04,Residencial,32,F,Montería,Córdoba,Oriente,2025-12-07 20:21:00,12,12,24,367328070,VIP
+475,Cliente_0475,cliente0475@email.com,11,2023-11-26,PYME,18,F,Ibagué,Tolima,Occidente,2025-12-14 10:46:00,8,8,17,294515121,VIP
+476,Cliente_0476,cliente0476@email.com,4,2022-11-26,PYME,29,F,Barranquilla,Atlántico,Centro,2025-10-17 18:28:00,16,16,75,495945520,VIP
+477,Cliente_0477,cliente0477@email.com,15,2022-08-09,Residencial,24,F,Neiva,Huila,Oriente,2025-09-13 10:14:00,6,6,109,131577667,Regular
+478,Cliente_0478,cliente0478@email.com,6,2020-04-12,Residencial,32,M,Bucaramanga,Santander,Norte,2025-09-28 18:01:00,9,9,94,264615521,Regular
+479,Cliente_0479,cliente0479@email.com,6,2023-02-15,Residencial,38,F,Bucaramanga,Santander,Norte,2025-11-28 11:35:00,10,10,33,321999745,VIP
+480,Cliente_0480,cliente0480@email.com,1,2021-05-25,Residencial,36,M,Medellín,Antioquia,Centro,2025-06-17 11:59:00,17,17,197,490158179,En riesgo
+481,Cliente_0481,cliente0481@email.com,14,2024-10-03,PYME,46,M,Pasto,Nariño,Oriente,2025-12-28 17:20:00,12,12,3,285300384,VIP
+482,Cliente_0482,cliente0482@email.com,8,2020-09-05,Residencial,42,M,Manizales,Caldas,Norte,2025-12-22 15:35:00,8,8,9,232723156,VIP
+483,Cliente_0483,cliente0483@email.com,6,2022-07-23,Residencial,50,F,Bucaramanga,Santander,Norte,2025-11-24 20:51:00,8,8,37,241991608,VIP
+484,Cliente_0484,cliente0484@email.com,3,2020-09-30,Residencial,66,M,Cali,Valle,Centro,2025-09-08 20:55:00,6,6,114,209509670,Regular
+485,Cliente_0485,cliente0485@email.com,14,2024-06-29,Corporativo,49,F,Pasto,Nariño,Oriente,2025-12-01 15:20:00,10,10,30,272041440,VIP
+486,Cliente_0486,cliente0486@email.com,9,2022-08-09,Residencial,66,F,Santa Marta,Magdalena,Occidente,2024-10-22 17:16:00,8,8,435,205544788,Perdido
+487,Cliente_0487,cliente0487@email.com,2,2023-09-29,Residencial,52,F,Bogotá,Cundinamarca,Centro,2025-12-28 18:22:00,10,10,3,257290863,VIP
+488,Cliente_0488,cliente0488@email.com,15,2022-12-23,Residencial,61,M,Neiva,Huila,Oriente,2025-11-11 16:44:00,6,6,50,142667211,VIP
+489,Cliente_0489,cliente0489@email.com,11,2023-02-18,Residencial,55,F,Ibagué,Tolima,Occidente,2025-09-14 22:38:00,12,12,108,349086645,Regular
+490,Cliente_0490,cliente0490@email.com,8,2023-05-04,Corporativo,43,F,Manizales,Caldas,Norte,2025-12-13 14:37:00,15,15,18,645827494,VIP
+491,Cliente_0491,cliente0491@email.com,10,2021-10-11,Residencial,28,F,Cúcuta,Norte de Santander,Occidente,2025-12-15 20:39:00,8,8,16,196576542,VIP
+492,Cliente_0492,cliente0492@email.com,3,2024-03-26,Residencial,52,M,Cali,Valle,Centro,2025-02-12 14:05:00,8,8,322,279611313,En riesgo
+493,Cliente_0493,cliente0493@email.com,13,2022-06-25,PYME,25,M,Villavicencio,Meta,Oriente,2025-10-15 12:16:00,10,10,77,270684672,VIP
+494,Cliente_0494,cliente0494@email.com,12,2023-06-08,PYME,63,M,Montería,Córdoba,Oriente,2025-11-18 09:24:00,10,10,43,361667503,VIP
+495,Cliente_0495,cliente0495@email.com,5,2024-07-27,Residencial,31,M,Cartagena,Bolívar,Norte,2025-10-04 20:30:00,13,13,88,327004436,VIP
+496,Cliente_0496,cliente0496@email.com,6,2024-01-13,PYME,27,M,Bucaramanga,Santander,Norte,2025-11-17 11:49:00,11,11,44,223154790,VIP
+497,Cliente_0497,cliente0497@email.com,10,2022-10-30,Educativo,19,F,Cúcuta,Norte de Santander,Occidente,2025-12-31 22:52:00,6,6,0,204715422,VIP
+498,Cliente_0498,cliente0498@email.com,6,2022-05-23,Residencial,63,M,Bucaramanga,Santander,Norte,2025-05-16 09:48:00,4,4,229,61321955,En riesgo
+499,Cliente_0499,cliente0499@email.com,4,2024-08-28,PYME,26,M,Barranquilla,Atlántico,Centro,2025-12-10 20:47:00,12,12,21,329590474,VIP
+500,Cliente_0500,cliente0500@email.com,3,2023-01-27,PYME,20,M,Cali,Valle,Centro,2025-08-14 14:07:00,13,13,139,478145536,Regular

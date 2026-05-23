@@ -1,0 +1,26 @@
+id_empleado,nombre,cargo,id_tienda,fecha_contratacion,salario
+1,Empleado_001,Vendedor,12,2021-07-02,4180631.0
+2,Empleado_002,Vendedor,14,2024-01-12,2362891.0
+3,Empleado_003,Vendedor,5,2019-11-22,5280518.0
+4,Empleado_004,Vendedor,18,2023-03-04,3314564.0
+5,Empleado_005,Soporte,5,2023-10-31,1962510.0
+6,Empleado_006,Servicio al Cliente,3,2021-08-30,4421683.0
+7,Empleado_007,Cajero,5,2021-07-10,2315625.0
+8,Empleado_008,Cajero,17,2020-06-14,1758544.0
+9,Empleado_009,Bodega,19,2023-03-20,5351338.0
+10,Empleado_010,Vendedor,19,2020-05-21,3462763.0
+11,Empleado_011,Vendedor,12,2023-09-17,4821633.0
+12,Empleado_012,Bodega,9,2022-07-29,2665762.0
+13,Empleado_013,Vendedor,1,2020-07-21,4998760.0
+14,Empleado_014,Gerente Tienda,18,2023-04-18,1826099.0
+15,Empleado_015,Supervisor,4,2023-05-12,2973075.0
+16,Empleado_016,Cajero,10,2021-12-03,5896891.0
+17,Empleado_017,Cajero,7,2021-09-19,5031752.0
+18,Empleado_018,Soporte,1,2022-07-07,3637103.0
+19,Empleado_019,Vendedor,17,2020-05-04,2896954.0
+20,Empleado_020,Vendedor,2,2020-07-16,5399038.0
+21,Empleado_021,Soporte,11,2021-06-19,3860784.0
+22,Empleado_022,Supervisor,9,2019-06-08,4864598.0
+23,Empleado_023,Vendedor,7,2023-01-01,4844306.0
+24,Empleado_024,Bodega,17,2020-08-08,1384345.0
+25,Empleado_025,Cajero,17,2020-04-25,1893393.0

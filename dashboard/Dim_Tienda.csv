@@ -1,0 +1,21 @@
+id_tienda,nombre_tienda,id_ciudad,tipo,tamano_m2,nombre_ciudad,region,zona
+1,TechStore Centro,7,Física,711,Pereira,Risaralda,Norte
+2,TechStore Norte,4,Física,358,Barranquilla,Atlántico,Centro
+3,TechStore Sur,13,Física,393,Villavicencio,Meta,Oriente
+4,TechStore Este,15,Física,541,Neiva,Huila,Oriente
+5,TechStore Oeste,11,Física,463,Ibagué,Tolima,Occidente
+6,TechStore Plaza,8,Física,435,Manizales,Caldas,Norte
+7,TechStore Mall,13,Física,241,Villavicencio,Meta,Oriente
+8,TechStore Outlet,5,Física,326,Cartagena,Bolívar,Norte
+9,TechStore Premium,7,Física,210,Pereira,Risaralda,Norte
+10,TechStore Express,10,Física,509,Cúcuta,Norte de Santander,Occidente
+11,TechStore Digital,3,Física,363,Cali,Valle,Centro
+12,TechStore Smart,7,Física,71,Pereira,Risaralda,Norte
+13,TechStore Online,11,Física,302,Ibagué,Tolima,Occidente
+14,TechStore Megastore,11,Física,797,Ibagué,Tolima,Occidente
+15,TechStore Plus,8,Física,610,Manizales,Caldas,Norte
+16,TechStore Go,5,Física,524,Cartagena,Bolívar,Norte
+17,TechStore Hub,4,Virtual,108,Barranquilla,Atlántico,Centro
+18,TechStore Zone,8,Virtual,560,Manizales,Caldas,Norte
+19,TechStore Lab,8,Virtual,731,Manizales,Caldas,Norte
+20,TechStore Point,3,Virtual,525,Cali,Valle,Centro

@@ -1,0 +1,7 @@
+id_metodo_pago,nombre,comision_pct
+1,Tarjeta Crédito,3.5
+2,Tarjeta Débito,1.8
+3,Efectivo contra entrega,0.0
+4,Transferencia,0.5
+5,Pago Móvil,2.0
+6,Criptomonedas,1.0

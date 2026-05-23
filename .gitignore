@@ -1,0 +1,25 @@
+# === Entorno virtual y caché de Python ===
+.venv/
+__pycache__/
+*.py[cod]
+
+# === Configuración local del editor/agente ===
+.claude/
+
+# === Bloqueos temporales de LibreOffice / Office ===
+.~lock.*#
+*.tmp
+
+# === Bases de datos locales (se regeneran; el proyecto corre sobre SQL Server en Docker) ===
+*.db
+datos/oltp/
+docs/dw/
+
+# === Material de la asignatura (NO forma parte de la entrega) ===
+Rubrica Trabajo Final BI.pdf
+Estructura trabajo BI 2026.docx
+
+# === Generación e intermedios de Word (se entrega solo el informe en Markdown) ===
+docs/generar_docx.py
+docs/*.docx
+docs/*.odt

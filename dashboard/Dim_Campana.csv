@@ -1,0 +1,6 @@
+id,nombre,tipo,inicio,fin,presupuesto,categorias,incremento_ventas_pct,id_campana_dw
+C001,Black Friday 2024,Descuento,2024-11-25,2024-11-30,5000000.0,todas,45.0,1
+C002,Cyber Monday 2024,Online,2024-12-02,2024-12-02,3000000.0,"Laptops,Smartphones",30.0,2
+C003,Regreso a Clases 2025,Estacional,2025-01-10,2025-02-05,4000000.0,"Laptops,Software,Accesorios",25.0,3
+C004,Día del Padre 2025,Estacional,2025-06-10,2025-06-15,2500000.0,"Smartphones,Gaming,Audio",20.0,4
+C005,Aniversario TechStore,Corporativa,2025-03-01,2025-03-15,8000000.0,todas,35.0,5

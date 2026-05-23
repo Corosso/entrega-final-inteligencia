@@ -1,0 +1,11 @@
+id_categoria,nombre,descripcion
+1,Laptops,Computadores portátiles
+2,Smartphones,Teléfonos inteligentes
+3,Accesorios,"Cables, fundas, cargadores"
+4,Audio,"Audífonos, parlantes, micrófonos"
+5,Almacenamiento,"Discos duros, SSD, USB"
+6,Monitores,Pantallas y monitores
+7,Impresoras,Impresoras y escáneres
+8,Redes,"Routers, switches, access points"
+9,Software,Licencias y software
+10,Gaming,"Consolas, videojuegos, periféricos gaming"

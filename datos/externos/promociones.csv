@@ -1,0 +1,9 @@
+id_promocion,nombre,tipo,valor,fecha_inicio,fecha_fin,categoria_aplica,activa
+1,BLACKFRIDAY,Porcentaje,20,2024-11-25,2024-11-30,Todas,False
+2,CYBERMONDAY,Porcentaje,15,2024-12-02,2024-12-02,"Laptops,Smartphones",False
+3,REGRESOACLASES,Fijo,50000,2025-01-10,2025-02-05,"Laptops,Software",False
+4,DIADELPADRE,Porcentaje,10,2025-06-10,2025-06-15,"Smartphones,Gaming,Audio",False
+5,ANIVERSARIO,Porcentaje,25,2025-03-01,2025-03-15,Todas,False
+6,BIENVENIDA10,Porcentaje,10,2023-01-01,2026-12-31,Todas,True
+7,VIP15,Porcentaje,15,2023-01-01,2026-12-31,Todas,True
+8,ENVIOGRATIS,Envío,0,2023-01-01,2026-12-31,Todas,True

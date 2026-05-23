@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<campanas>
+  <campana id="C001">
+    <nombre>Black Friday 2024</nombre>
+    <tipo>Descuento</tipo>
+    <inicio>2024-11-25</inicio>
+    <fin>2024-11-30</fin>
+    <presupuesto>5000000</presupuesto>
+    <categorias>todas</categorias>
+    <incremento_ventas_pct>45</incremento_ventas_pct>
+  </campana>
+  <campana id="C002">
+    <nombre>Cyber Monday 2024</nombre>
+    <tipo>Online</tipo>
+    <inicio>2024-12-02</inicio>
+    <fin>2024-12-02</fin>
+    <presupuesto>3000000</presupuesto>
+    <categorias>Laptops,Smartphones</categorias>
+    <incremento_ventas_pct>30</incremento_ventas_pct>
+  </campana>
+  <campana id="C003">
+    <nombre>Regreso a Clases 2025</nombre>
+    <tipo>Estacional</tipo>
+    <inicio>2025-01-10</inicio>
+    <fin>2025-02-05</fin>
+    <presupuesto>4000000</presupuesto>
+    <categorias>Laptops,Software,Accesorios</categorias>
+    <incremento_ventas_pct>25</incremento_ventas_pct>
+  </campana>
+  <campana id="C004">
+    <nombre>Día del Padre 2025</nombre>
+    <tipo>Estacional</tipo>
+    <inicio>2025-06-10</inicio>
+    <fin>2025-06-15</fin>
+    <presupuesto>2500000</presupuesto>
+    <categorias>Smartphones,Gaming,Audio</categorias>
+    <incremento_ventas_pct>20</incremento_ventas_pct>
+  </campana>
+  <campana id="C005">
+    <nombre>Aniversario TechStore</nombre>
+    <tipo>Corporativa</tipo>
+    <inicio>2025-03-01</inicio>
+    <fin>2025-03-15</fin>
+    <presupuesto>8000000</presupuesto>
+    <categorias>todas</categorias>
+    <incremento_ventas_pct>35</incremento_ventas_pct>
+  </campana>
+</campanas>
