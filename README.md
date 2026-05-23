@@ -106,9 +106,3 @@ python dashboard/consolidar_excel.py
 
 ---
 
-## 7. Notas
-
-- Si solo quieres revisar resultados sin regenerar nada, el informe en Markdown, las
-  figuras de `analisis/graficos/` y los CSV de `dashboard/` ya están incluidos.
-- Para regenerar todo desde cero, SQL Server debe estar corriendo (paso 4) antes de
-  ejecutar los scripts.
